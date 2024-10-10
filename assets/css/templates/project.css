@@ -1,0 +1,15 @@
+.list-item-image {
+    width: 100%; 
+    height: 300px;
+    background-size: cover;
+}
+
+.projects-container {
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, 120px);
+    grid-row-gap: 200px;
+    grid-column-gap: 1em;
+
+}
