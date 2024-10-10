@@ -3,3 +3,7 @@ Title: Swarm Marrakech
 ----
 
 Thumbnail: swarm_marrakech_thumbnail.png
+
+----
+
+Uuid: xt0V8wZYqMdUy7xV
