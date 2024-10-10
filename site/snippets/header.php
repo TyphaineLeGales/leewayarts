@@ -65,20 +65,20 @@
       <button id="menuBtn" onclick="menuToggle()">
         <p> Menu </p>
       </button>
-      <div class="nav-container flex-center">
-        <a href="/projects"> Projects </a>
-        <a href="/topics"> Topics </a>
-        <a href="/about"> About </a>
-        <a href="/donation"> Donation</a>
-        <a href="/contact"> Contact </a>
-        <k-icon type="cancel-small" image="false" :icon="{
-    type: 'file',
-    back: 'black'
-  }">
-        <k-icon type="check" image="false"></k-icon>
+      <div class="nav_container ">
+        <button class="menu_close" onclick="menuToggle()"> Close </button>
+        <div class="flex-center">
+          <a href="/projects"> Projects </a>
+          <a href="/topics"> Topics </a>
+          <a href="/about"> About </a>
+          <a href="/donation"> Donation</a>
+          <a href="/contact"> Contact </a>
+        </div>
+        <div></div>
       </div>
       
     </nav>
+    <div id="menu_overlay"></div>
   </header>
 
   <main class="main">

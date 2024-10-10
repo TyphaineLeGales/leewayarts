@@ -1,17 +1,21 @@
-.nav-container {
+.nav_container {
     width: 25vw;
     height: 100vh;
     position: fixed; 
     top: 0;
     left: 0;
-    background-color: orange;
+    background-color: white;
     transform: translateX(100vw);
     transition: transform 0.3s ease-out; /* Smooth transition */
     z-index:10;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid black 1px;
     
 }
 
-.nav-container.open {
+.nav_container.open {
     transform: translateX(75vw); /* Slide in */
 }
 
@@ -20,4 +24,27 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+.menu_content {
+    position: relative;
+}
+
+.menu_close {
+    align-self: flex-end;
+    padding: 24px;
+}
+
+#menu_overlay {
+    position: fixed;
+    top: 0; 
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    pointer-events: none;
+    z-index:10;
+    background-color:black;
+    opacity: 1;
+    display:none;
+    mix-blend-mode: saturation;
 }
