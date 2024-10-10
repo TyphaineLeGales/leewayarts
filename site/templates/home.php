@@ -28,34 +28,15 @@
     we call a method like `children()` in this case
   */
   ?>
-  <?php if ($photographyPage = page('photography')): ?>
-  <ul class="home-grid">
-    <?php foreach ($photographyPage->children()->listed() as $album): ?>
-    <li>
-      <a href="<?= $album->url() ?>">
-        <figure>
-          <?php
-          /*
-            The `cover()` method defined in the `album.php`
-            page model can be used everywhere across the site
-            for this type of page
+    <div>
+      <h1>Projects </h1>
+      <div class="project-list-row">
+        <?php snippet('projectlist') ?>
+      </div>
+      <h1>Topics </h1>
+      <div class="project-list-row">
+        <?php snippet('topicslist') ?>
+      </div>
 
-            We can automatically resize images to a useful
-            size with Kirby's built-in image manipulation API
-          */
-          ?>
-          <?php if ($cover = $album->cover()): ?>
-          <img src="<?= $cover->resize(1024, 1024)->url() ?>" alt="<?= $cover->alt()->esc() ?>">
-          <?php endif ?>
-          <figcaption>
-            <span>
-              <span class="example-name"><?= $album->title()->esc() ?></span>
-            </span>
-          </figcaption>
-        </figure>
-      </a>
-    </li>
-    <?php endforeach ?>
-  </ul>
-  <?php endif ?>
+    </div>
 <?php snippet('footer') ?>
