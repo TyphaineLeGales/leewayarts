@@ -14,13 +14,7 @@ Carousel:
 
 ----
 
-Description:
-
-In 2022 the Police, Crime, Sentencing and Courts Act (PCSC) came  into effect, and in May 2023 the Public Order Act (PO) was added. These  Acts include severe restrictions on the rights to protest. The  restrictions are not only for marches, they also apply to static  assemblies and even one person protests. The Acts increase the risks for  people participating and ask protests to happen in a way where no one  is disrupted by it.
-
-Yet, none of the successes of the Civil  Rights Movement, the Suffragettes, Gay Liberation Front and Reclaim the  Streets would have been achieved without civil disobedience.
-
-Sometimes the law is wrong. With Rise Baby Rise, we invite you to take it to the streets with us.
+Description: [{"content":{"text":"<p>In 2022 the Police, Crime, Sentencing and Courts Act (PCSC) came  into effect, and in May 2023 the Public Order Act (PO) was added. These  Acts include severe restrictions on the rights to protest. The  restrictions are not only for marches, they also apply to static  assemblies and even one person protests. The Acts increase the risks for  people participating and ask protests to happen in a way where no one  is disrupted by it. </p>"},"id":"d856f700-ea2e-43e5-b39a-50315b268525","isHidden":false,"type":"text"},{"content":{"text":"<p>Yet, none of the successes of the Civil  Rights Movement, the Suffragettes, Gay Liberation Front and Reclaim the  Streets would have been achieved without civil disobedience. </p>"},"id":"aa405d69-a0a4-4eca-b440-7b007753c68c","isHidden":false,"type":"text"},{"content":{"text":"<p>Sometimes the law is wrong. With Rise Baby Rise, we invite you to take it to the streets with us.</p>"},"id":"fdeaaa3c-7aab-4c8e-adc8-8acd4051d852","isHidden":false,"type":"text"}]
 
 ----
 

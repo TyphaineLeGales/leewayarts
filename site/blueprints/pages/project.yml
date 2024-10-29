@@ -30,7 +30,9 @@ columns:
         fields: 
           description: 
             label: Project text
-            type: textarea
+            type: blocks
+            fieldsets: 
+              - text
           quote: 
             type: text
           video:

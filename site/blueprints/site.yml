@@ -19,5 +19,6 @@ columns:
           - default
           - projects
           - project
+          - topics
         
 
