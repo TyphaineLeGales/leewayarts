@@ -28,7 +28,7 @@ Quote: this is a quote
 
 ----
 
-Video: 
+Video: https://www.youtube.com/watch?v=MFz4_asxxG4&ab_channel=Salt%26Pepper
 
 ----
 
@@ -37,6 +37,19 @@ Credits:
 - 
   role: ""
   people: ""
+- 
+  role: 'choreography '
+  people: Floor van leeuwen
+- 
+  role: ""
+  people: ""
+
+----
+
+Related:
+
+- page://IHJ2wEHfWXhDDNGG
+- page://ECJT2o2vg035iiWZ
 
 ----
 
