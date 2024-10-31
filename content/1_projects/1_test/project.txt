@@ -18,7 +18,7 @@ Description: [{"content":{"text":"<p>In 2022 the Police, Crime, Sentencing and C
 
 ----
 
-Quote: this is a quote
+Quote: “Seeing movement is experiencing movement. (..) In physical  performances such as Schwalbe is looking for crowds, the body of both  the performer and the spectator become signifiers.”  Name, Surname, Reference
 
 ----
 
