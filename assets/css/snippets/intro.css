@@ -1,0 +1,21 @@
+.intro{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-row-gap: var(--padding);
+    grid-column-gap: var(--padding);
+    margin: 6rem 0 ;
+  }
+  
+.intro > h3 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+@media screen and (min-width: 60rem) {
+    .intro > h3 {
+        grid-column-start: 2;
+        grid-column-end: 6;
+    }
+}

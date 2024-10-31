@@ -12,9 +12,13 @@
   https://getkirby.com/docs/guide/templates/snippets
 */
 ?>
-<header class="h1">
-  <h1><?= $page->headline()->or($page->title())->esc() ?></h1>
+  <?= css([
+    'assets/css/snippets/intro.css',
+
+  ]) ?>
+<div class="intro">
+  <h3><?= $page->headline()->or($page->title())->esc() ?></h3>
   <?php if ($page->subheadline()->isNotEmpty()): ?>
   <p class="color-grey"><?= $page->subheadline()->esc() ?></p>
   <?php endif ?>
-</header>
+  </div>

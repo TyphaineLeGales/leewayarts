@@ -1,10 +1,31 @@
+@font-face {
+  font-family: 'PPTelegraf';
+  src: url('../fonts/PPTelegraf-Regular.ttf') format('truetype');
+  font-weight:400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPTelegraf';
+  src: url('../fonts/PPTelegraf-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPTelegraf';
+  src: url('../fonts/PPTelegraf-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 :root {
-  --padding: 1.5rem;
+  --padding:24px;
   --color-black: #000;
   --color-white: #fff;
   --color-grey: #777;
@@ -35,8 +56,8 @@ img {
   width: 100%;
 }
 body {
-  max-width: 99rem;
-  margin: 0 auto;
+  padding: var(--padding);
+  margin: 0;
 }
 li {
   list-style: none;
@@ -72,9 +93,7 @@ small {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-right: -1rem;
-  margin-left: -1rem;
-  margin-bottom: 6rem;
+  margin-right: 0;
 }
 
 .logo {
@@ -132,6 +151,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   font-weight: bold;
   line-height: inherit;
+  font-family: 'PPTelegraf';
+  text-wrap: pretty;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 500;
 }
 
 .text {
@@ -173,11 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .text h1,
 .h1,
-.intro {
-  font-size: 2rem;
-  margin-bottom: 3rem;
-  line-height: 1.25em;
-}
+
 .text h2,
 .h2 {
   font-size: 1.25rem;
@@ -259,13 +281,6 @@ hr {
 
 .align-center {
   text-align: center;
-}
-
-.intro {
-  max-width: 40rem;
-}
-.intro *:not(:last-child) {
-  margin-bottom: 1em;
 }
 
 .cta {
@@ -381,10 +396,6 @@ hr {
 
 
 @media screen and (min-width: 60rem) {
-  body {
-    --padding: 3rem;
-  }
-
   .grid {
     grid-template-columns: repeat(12, 1fr);
   }
