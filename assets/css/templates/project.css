@@ -1,6 +1,6 @@
 .list-item-image {
     width: 100%; 
-    height: 95%;
+    height: 90%;
     background-size: cover;
     transition: all 0.5s ease-out
 }
@@ -9,13 +9,25 @@
     filter: grayscale(1)
 }
 
+.project__credits__people {
+    font-weight: 700;
+}
+
+.project__credit {
+    width: fit-content;
+}
+
+.project__credit:not(:last-child)::after {
+    content: ' |';
+}
+
 
 .project-list-row {
     display: grid;
     grid-gap:  var(--padding);
     /* grid-template-columns: repeat(auto-fill,2fr); */
     grid-auto-flow: column;
-    grid-auto-columns: minmax(calc(100vw/1.5 - var(--padding)), 2fr); 
+    grid-auto-columns: minmax(calc(100vw/1.25 - var(--padding)), 2fr); 
     grid-auto-rows: minmax(250px, 1fr); 
     overflow-x: auto;
     white-space: nowrap;        

@@ -62,10 +62,7 @@ body {
 li {
   list-style: none;
 }
-a {
-  color: currentColor;
-  text-decoration: none;
-}
+
 button {
   font: inherit;
   background: none;
@@ -147,6 +144,27 @@ small {
   grid-auto-flow: dense;
 }
 
+a {
+  color: currentColor;
+  text-decoration: none;
+  font-size: 14px; 
+  font-weight: 400;
+ 
+}
+
+quote {
+  font-family: 'PPTelegraf';
+  font-weight: 400;
+  font-size: 12px;
+  
+}
+
+p {
+  font-family: 'PPTelegraf';
+  font-weight: 400;
+  font-size: 12px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   font-weight: bold;
@@ -156,9 +174,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 18px;
   font-weight: 500;
 }
+@media screen and (min-width: 60rem) {
+  h3 {
+    font-size:36px;
+  }
+  
+  p {
+    font-size: 24px;
+  }
+
+  quote {
+    font-size: 24px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+}
+
 
 .text {
   line-height: 1.5em;

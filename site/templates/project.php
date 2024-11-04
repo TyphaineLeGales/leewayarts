@@ -19,7 +19,7 @@
   <!--  PROJECT CREDITS -->
   <p class="project__credits middle-layout">
     <?php $credits = $page->credits()->toStructure(); foreach ($credits as $credit): ?> 
-      <span><?= $credit->role() ?></span>  <?=$credit->people()?> |
+      <span class="project__credit"><?= $credit->role() ?>  <span class="project__credits__people"><?=$credit->people()?></span></span>
     <?php endforeach ?>
   </p>
   

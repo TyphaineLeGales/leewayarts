@@ -2,6 +2,10 @@ Title: Choreography
 
 ----
 
+Author: Nataly Ba
+
+----
+
 Thumbnail: - file://sYqufAFk7nXNBsXy
 
 ----
@@ -21,6 +25,10 @@ References:
     Queer phenomenology orientations,
     objects, others
   info: Duke University Press. 
+- 
+  date: del Castillo, F. A. (2021)
+  title: 'Self-actualization towards positive well-being: Combating despair during the covid-19 pandemic. Journal of Public Health, 43(4)'
+  info: https://doi.org/10.1093/pubmed/fdab148
 
 ----
 

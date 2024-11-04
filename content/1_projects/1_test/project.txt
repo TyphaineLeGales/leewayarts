@@ -29,14 +29,32 @@ Video: https://www.youtube.com/watch?v=MFz4_asxxG4&ab_channel=Salt%26Pepper
 Credits:
 
 - 
-  role: ""
-  people: ""
-- 
   role: 'choreography '
   people: Floor van leeuwen
 - 
-  role: ""
-  people: ""
+  role: Choreography of Dance
+  people: Simomo Boujarra
+- 
+  role: Choreography of Boundary
+  people: Dani Dinger
+- 
+  role: Music
+  people: Sara Dziri
+- 
+  role: Musical Direction
+  people: Reda Senhaji aka DJ Cheb Runner
+- 
+  role: Visual Art
+  people: Julita Mahrer Viñas
+- 
+  role: Visual Aspect Curation
+  people: Eden Topall-Rabanes
+- 
+  role: Accessibility Work
+  people: Nataly Ba
+- 
+  role: 'Press '
+  people: Catherine Li
 
 ----
 

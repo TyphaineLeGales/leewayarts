@@ -1,0 +1,40 @@
+.topic__row {
+    grid-column-start: 3;
+    grid-column-end: 11;
+}
+
+.topic-content {
+    grid-column-start: 3;
+    grid-column-end: 11;
+}
+
+.topic__content h2, p{
+    margin-bottom: var(--padding);
+}
+
+.block {
+    grid-column-start: 3;
+    grid-column-end: 11;
+}
+
+.block-type-quote {
+    grid-column-start: 4;
+    grid-column-end: 11;
+}
+
+.topic__references {
+    list-style: outside
+}
+
+.topic__references li {
+    list-style: outside
+}
+
+.topic__reference__title {
+    font-weight: 700;
+}
+
+.topic__references li p {
+    margin-bottom: 0;
+}
+

@@ -8,6 +8,8 @@ columns:
         fields: 
           title: 
             type: text
+          author: 
+            type: text
           thumbnail:
             label: media of article
             type: files
