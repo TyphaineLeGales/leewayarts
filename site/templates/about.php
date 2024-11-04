@@ -1,51 +1,48 @@
-<?php
-/*
-  Templates render the content of your pages.
-
-  They contain the markup together with some control structures
-  like loops or if-statements. The `$page` variable always
-  refers to the currently active page.
-
-  To fetch the content from each field we call the field name as a
-  method on the `$page` object, e.g. `$page->title()`.
-
-  This about page example uses the content from our layout field
-  to create most parts of the page and keeps it modular. Only the
-  contact box at the bottom is pre-defined with a set of fields
-  in the about.yml blueprint.
-
-  Snippets like the header and footer contain markup used in
-  multiple templates. They also help to keep templates clean.
-
-  More about templates: https://getkirby.com/docs/guide/templates/basics
-*/
-?>
 <?php snippet('header') ?>
-<?php snippet('intro') ?>
-<?php snippet('layouts', ['field' => $page->layout()])  ?>
 
-<aside class="contact">
-  <h2 class="h1">Get in contact</h2>
-  <div class="grid" style="--gutter: 1.5rem">
-    <section class="column text" style="--columns: 4">
-      <h3>Address</h3>
-      <?= $page->address() ?>
-    </section>
-    <section class="column text" style="--columns: 4">
-      <h3>Email</h3>
-      <p><?= Html::email($page->email()) ?></p>
-      <h3>Phone</h3>
-      <p><?= Html::tel($page->phone()) ?></p>
-    </section>
-    <section class="column text" style="--columns: 4">
-      <h3>On the web</h3>
-      <ul>
-        <?php foreach ($page->social()->toStructure() as $social): ?>
-        <li><?= Html::a($social->url(), $social->platform()) ?></li>
-        <?php endforeach ?>
-      </ul>
-    </section>
+<?= css([
+    'assets/css/pagegrid.css',
+  ]) ?>
+<div class="content">
+  <h1 class="middle-layout"><?= $page->title() ?></h1>
+  <?php foreach ($page->article()->toBlocks() as $block): ?>
+    <div class="middle-layout block block-type-<?= $block->type() ?>">
+        <?= $block ?>
+    </div>
+  <?php endforeach ?>
+  <h2 class="middle-layout">Leeway Team</h2>
+  <div  class="middle-layout about__team">
+    <?php $team = $page->team()->toStructure(); foreach ($team as $member): ?> 
+      <div class="about__team_member">
+        <img class="about__team_member_picture" src="<?= $member->picture()->toFile()->url()?>"/>
+        <p class="about__team_member_name"><?= $member->name()?></p>
+        <p class="about__team_member_role"><?= $member->role()?></p>
+        <p class="about__team_member_description"><?= $member->description()?></p>
+      </div>
+    <?php endforeach ?>
   </div>
-</aside>
+  <h2 class="middle-layout">Partners</h2>
+  <div class="middle-layout about__partners">
+    <?php $partners = $page->partners()->toFiles(); foreach ($partners as $partner): ?> 
+        <div class="about__partner">
+          <img class="about__partner__logo" src="<?= $partner->url()?>"/>
+        </div>
+    <?php endforeach ?>
+  </div>   
+  <h2 class="middle-layout">Reports</h2>
+  <?php $reports = $page->reports()->toStructure(); foreach ($reports as $report): ?> 
+    <a class="middle-layout" target="_blank" href="<?= $report->url()?>"><?= $report->name() ?></a>
+  <?php endforeach ?>
+  <h2 class="middle-layout">Low Emissions </h2>
+  <p class="middle-layout">
+  A major factors in the process of this website was the importance to  create a sustainable, low carbon and optimised website for Leeway. We have implemented this value throughout the development of  this project. The internet is a power hungry medium: it consumes  416.2TWh per year (by comparison, that’s more than UK's entire yearly  carbon footprint) and thus we thought it crucial to create a website  with a minimal carbon footprint.
+  </p>
+  <h2 class="middle-layout">Credits</h2>
+  <div class="middle-layout">
+    <p >Graphic and web design by Nadine Rotem-Stibbe</p>
+    <p>Back/front web development Typhaine Le Galès</p>
+  </div>
+  
+</div>
 
 <?php snippet('footer') ?>

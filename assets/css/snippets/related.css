@@ -1,8 +1,9 @@
 .related__link {
     display: flex;
+    margin-top: var(--padding);
 }
 
-.related__link li a {
+a {
     border: solid black 1px;
     border-radius: 25px;
     padding: 6px;

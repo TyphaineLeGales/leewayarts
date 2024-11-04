@@ -159,7 +159,7 @@ quote {
   
 }
 
-p {
+p, li, a{
   font-family: 'PPTelegraf';
   font-weight: 400;
   font-size: 12px;
@@ -182,7 +182,7 @@ h3 {
     font-size:36px;
   }
   
-  p {
+  p, li {
     font-size: 24px;
   }
 

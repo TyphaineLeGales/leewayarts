@@ -19,7 +19,7 @@
     <ul class="topic__row topic__references">
     <?php foreach($page->references()->toStructure() as $reference): ?>
         <li>
-            <p> <?= $reference->date() ?> <span class="topic__reference__title"><?= $reference->title() ?> </span><?= $reference->info() ?><p>
+            <?= $reference->date() ?> <span class="topic__reference__title"><?= $reference->title() ?> </span><?= $reference->info() ?>
         </li>
     <?php endforeach ?>
     </ul>

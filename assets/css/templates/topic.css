@@ -1,10 +1,5 @@
 .topic__row {
-    grid-column-start: 3;
-    grid-column-end: 11;
-}
-
-.topic-content {
-    grid-column-start: 3;
+    grid-column-start: 1;
     grid-column-end: 11;
 }
 
@@ -13,28 +8,48 @@
 }
 
 .block {
-    grid-column-start: 3;
+    grid-column-start: 1;
     grid-column-end: 11;
 }
 
 .block-type-quote {
-    grid-column-start: 4;
+    grid-column-start: 2;
     grid-column-end: 11;
 }
 
-.topic__references {
-    list-style: outside
+.topic__references li {
+    list-style: inside;
 }
 
-.topic__references li {
-    list-style: outside
+.topic__references li::marker {
+    margin-left: 0;
 }
 
 .topic__reference__title {
     font-weight: 700;
 }
 
-.topic__references li p {
+.topic__references li  {
     margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 60rem) {
+    .topic__row {
+        grid-column-start: 3;
+        grid-column-end: 11;
+    }
+
+    .block {
+        grid-column-start: 3;
+        grid-column-end: 11;
+    }
+
+    .block-type-quote {
+        grid-column-start: 4;
+        grid-column-end: 11;
+    }
+    
+    
 }
 

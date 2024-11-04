@@ -1,7 +1,94 @@
-.contact {
-  padding: 3rem;
-  border: 2px solid #000;
+.about__row {
+  grid-column-start: 1;
+  grid-column-end: 11;
 }
-.contact .h1 {
-  margin-bottom: 1.5rem;
+
+.about__partner {
+  width: 100%;
+  height: 100;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__partner__logo {
+  max-width: 130px;
+  max-height: 130px;
+}
+
+.about__team_member {
+  padding-bottom: 24px;
+}
+.about__team_member_picture {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: solid black 1px;
+  margin-bottom: 24px;
+}
+
+.about__team{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-row-gap: var(--padding);
+  grid-column-gap: var(--padding);
+}
+
+.about__partners {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-row-gap: var(--padding);
+  grid-column-gap: var(--padding);
+}
+
+.about__team_member_name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.about__team_member_role {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.about__team_member_description {
+  font-size: 12px;
+}
+
+.content a {
+    width: fit-content;
+    border: solid black 1px;
+    border-radius: 25px;
+    padding: 3px 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+.content a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+@media screen and (min-width: 60rem) {
+  .about__team_member_picture {
+    width: 250px;
+    height: 250px;
+  }
+  .about__team {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about__partners {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .about__team_member_description {
+    font-size: 18px;
+  }
+
+  .about__team_member_name, .about__team_member_role {
+    font-size: 24px;
+  }
+
 }
