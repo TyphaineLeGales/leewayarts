@@ -3,7 +3,7 @@
 }
 
 .subNav a {
-    letter-spacing: 0.8rem;
+    letter-spacing:auto;
 }
 
 .subNav a:hover {
@@ -43,4 +43,10 @@
 .arrow-icon-container:has(.left){
     margin-left: 12px;
     margin-right: 0;
+}
+
+@media screen and (min-width: 60rem) {
+    .subNav a {
+        letter-spacing: 0.8rem;
+    }
 }

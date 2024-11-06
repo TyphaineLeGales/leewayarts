@@ -68,11 +68,13 @@
       <div class="nav_container ">
         <button class="menu_close" onclick="menuToggle()"> Close </button>
         <div class="flex-center">
-          <a href="/projects"> Projects </a>
-          <a href="/topics"> Topics </a>
-          <a href="/about"> About </a>
-          <a href="/donation"> Donation</a>
-          <a href="/contact"> Contact </a>
+        <?php foreach ($site->children()->listed() as $rootPage): ?>
+          <li>
+            <a href="<?= $rootPage->url() ?>">
+              <?= $rootPage->title()->html() ?>
+            </a>
+          </li>
+        <?php endforeach ?>
         </div>
         <div></div>
       </div>

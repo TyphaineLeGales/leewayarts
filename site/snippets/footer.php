@@ -19,14 +19,13 @@
       <p>©2024 All rights reserved</p>
     </div>
     <ul class="footer__page_list">
-        <li><a href="Home">Home</a></li>
-        <li><a href="Projects">Projects</a></li>
-        <li><a href="Projects">Topics</a></li>
-        <li><a href="Donations">Donations</a></li>
-        <li><a href="Articles">Articles</a></li>
-        <li><a href="About">About</a>
-        <li><a href="Contact">Contact</a></li>
+      <?php foreach ($site->children()->listed() as $rootPage): ?>
+        <li>
+          <a href="<?= $rootPage->url() ?>">
+            <?= $rootPage->title()->html() ?>
+          </a>
         </li>
+      <?php endforeach ?>
     </ul>
     <div class="footer__contact">
       <a>floor@leewayart.org</a>

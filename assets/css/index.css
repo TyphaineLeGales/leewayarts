@@ -186,6 +186,10 @@ h1, h2, h3, h4, h5, h6 {
   text-wrap: pretty;
 }
 
+h1 {
+  font-size: 36px;
+}
+
 h3 {
   font-size: 18px;
   font-weight: 500;
@@ -197,6 +201,10 @@ h3 {
   
   h3 {
     font-size:36px;
+  }
+
+  h1 {
+    font-size:60px;
   }
   
   p, li {
