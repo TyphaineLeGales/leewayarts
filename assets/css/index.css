@@ -209,6 +209,11 @@ h3 {
     height: 64px;
   }
 
+  .menu {
+    padding: 1rem 0;
+    margin-bottom:0;
+  }
+
 }
 
 
