@@ -3,6 +3,12 @@
     scroll-behavior: smooth;
 }
 
+.toc ol li a:hover {
+    letter-spacing: 0.75rem;
+    transition: all 0.2s ease-out;
+    font-weight: 700;
+}
+
 
 @media screen and (min-width: 60rem) {
     .toc {

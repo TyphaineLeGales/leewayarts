@@ -7,6 +7,13 @@
     border: solid black 1px;
     border-radius: 25px;
     padding: 6px;
+   
+}
+
+.related__link li a:hover {
+    color: white;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
 }
 
 .related__link > li:not(:first-child) {

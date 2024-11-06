@@ -21,9 +21,11 @@
 
 .flex-center {
     display:flex; 
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
+    height: 100%;
+    margin-top: 48px;
 }
 
 .menu_content {
@@ -33,7 +35,18 @@
 .menu_close {
     align-self: flex-end;
     padding: 24px;
+    font-size:24px;
 }
+
+.nav_container div a {
+    font-size:36px;
+}
+
+.nav_container div a:hover {
+    letter-spacing: 0.8rem;
+    transition: all 0.2s ease-out;
+    opacity: 0.5;
+  }
 
 #menu_overlay {
     position: fixed;
@@ -56,6 +69,14 @@
 
     .nav_container.open {
         transform: translateX(50vw); /* Slide in */ 
+    }
+
+    .nav_container div a {
+        font-size:60px;
+    }
+
+    .menu_close {
+        font-size:36px;
     }
     
 }

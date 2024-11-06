@@ -13,8 +13,12 @@
 </div>
 <div class="content">
     <?php snippet('toc') ?>
-    <h1 class="topic__row"><?= $page->title() ?></h1>
-    <p class="topic__row">Written by <?= $page->author() ?> </p>
+    <div class="topic__row">
+    <h1 ><?= $page->title() ?></h1>
+    <p >Written by <?= $page->author() ?> </p>
+    </div>
+
+   
     <div class="topic__row">
         <img class="project-thumbnail" src="<?= $page->thumbnail()->toFile()->url() ?>"/>
     </div>

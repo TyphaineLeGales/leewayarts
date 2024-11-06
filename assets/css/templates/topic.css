@@ -1,6 +1,6 @@
 .top {
     position:sticky;
-    top:24px;
+    top:23px;
     background-color: white;
     width: calc(100% + 24px);
     transform: translateX(calc(var(--padding)*-1));

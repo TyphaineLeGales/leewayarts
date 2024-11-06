@@ -107,6 +107,13 @@ small {
   cursor: pointer;
 }
 
+
+.logo:hover {
+  letter-spacing: 0.8rem;
+  transition: all 0.2s ease-out;
+  opacity: 0.5;
+}
+
 .menu {
   display: flex;
   height:fit-content;
@@ -163,10 +170,9 @@ quote {
   font-family: 'PPTelegraf';
   font-weight: 400;
   font-size: 12px;
-  
 }
 
-p, li, a{
+p, li, a, button{
   font-family: 'PPTelegraf';
   font-weight: 400;
   font-size: 12px;
