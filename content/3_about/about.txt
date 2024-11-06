@@ -1,4 +1,4 @@
-Title: About test
+Title: Custom about title
 
 ----
 
