@@ -7,7 +7,8 @@
 <?php snippet('header') ?>
 <div class="top">
     <div id="progressContainer">
-        <div></div>
+        <div class="whiteBg"></div>
+        <div class="progress"></div>
     </div>
 </div>
 <div class="content">

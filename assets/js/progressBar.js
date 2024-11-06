@@ -8,6 +8,6 @@ window.addEventListener('scroll', function() {
     var scrollPercentage = (scrollPosition / documentHeight) * 100;
     
     // Update the progress bar's translateX value based on the scroll percentage
-    const progressBar = document.querySelector('#progressContainer div');
-    progressBar.style.transform = 'translateY(-2.5px) translateX(' + (scrollPercentage - 100) + '%)';
+    const progressBar = document.querySelector('.progress');
+    progressBar.style.transform = 'translateY(2.5px) translateX(' + (scrollPercentage - 100) + '%)';
 });

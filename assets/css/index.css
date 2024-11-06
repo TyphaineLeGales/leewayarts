@@ -94,9 +94,9 @@ small {
   align-items:flex-start;
   margin-right: 0;
   margin-bottom: 0;
-  background-color:white;
-  height:24px;
+  height:23px;
   z-index: 1;
+  background-color:white;
 }
 
 .logo {

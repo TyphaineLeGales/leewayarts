@@ -78,7 +78,7 @@
       </div>
       
     </nav>
-    <div id="menu_overlay"></div>
   </header>
+  <div id="menu_overlay"></div>
 
   <main class="main">
