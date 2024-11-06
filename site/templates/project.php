@@ -27,3 +27,4 @@
   <?php snippet('related') ?>
   <?php snippet('prevnext') ?>
 </div>
+<?php snippet('footer') ?>

@@ -10,24 +10,29 @@
 */
 ?>
   </main>
-
-  <footer class="footer">
-    <a class="logo" href="<?= $site->url() ?>">
-      <?= $site->title()->esc() ?>
-    </a>
-    <p>©2024 All rights reserved</p>
-    <ul>
- 
-        <li>
-          <a href="Home">Home |</a>
-          <a href="About">About |</a>
-          <a href="Donations">Donations |</a>
-          <a href="Contact">Contact |</a>
-          <a href="Projects">Projects |</a>
-          <a href="Articles">Articles</a>
+  <?= css(['assets/css/snippets/footer.css'])?>
+  <footer>
+    <div class="footer__item__copyright">
+      <p class="name" href="<?= $site->url() ?>">
+        <?= $site->title()->esc() ?>
+      </p>
+      <p>©2024 All rights reserved</p>
+    </div>
+    <ul class="footer__page_list">
+        <li><a href="Home">Home</a></li>
+        <li><a href="Projects">Projects</a></li>
+        <li><a href="Projects">Topics</a></li>
+        <li><a href="Donations">Donations</a></li>
+        <li><a href="Articles">Articles</a></li>
+        <li><a href="About">About</a>
+        <li><a href="Contact">Contact</a></li>
         </li>
-
     </ul>
+    <div class="footer__contact">
+      <a>floor@leewayart.org</a>
+      <a>Instagram</a>
+      <a>LinkedIn</a>
+    </div>
   </footer>
 
   <?= js([

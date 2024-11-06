@@ -13,3 +13,4 @@
         </div>
     <?php endforeach ?>
 </div>
+<?php snippet('footer') ?>
