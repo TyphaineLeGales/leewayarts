@@ -1,3 +1,29 @@
+.top {
+    position:sticky;
+    top:24px;
+    background-color: white;
+    width: calc(100% + 24px);
+    transform: translateX(calc(var(--padding)*-1));
+    z-index:2;
+   
+}
+
+#progressContainer {
+   position: absolute;
+   width: 100%;
+   background-color: black;
+   height: 1px;
+  
+}
+
+#progressContainer div {
+    width:100%;
+    height:5px;
+    position: relative;
+    background-color: black;
+    transform: translateY(-2.5px) translateX(-100%);
+}
+
 .topic__row {
     grid-column-start: 1;
     grid-column-end: 11;
@@ -33,6 +59,10 @@
     margin-bottom: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 
 @media screen and (min-width: 60rem) {
     .topic__row {
@@ -48,6 +78,12 @@
     .block-type-quote {
         grid-column-start: 4;
         grid-column-end: 11;
+    }
+
+    .top {
+        width: calc(100% + 48px);
+        transform: translateX(calc(var(--padding)*-1));
+        top:64px;
     }
     
     

@@ -3,7 +3,7 @@
     margin-top: var(--padding);
 }
 
-a {
+.related__link li a {
     border: solid black 1px;
     border-radius: 25px;
     padding: 6px;

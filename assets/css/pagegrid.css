@@ -1,4 +1,5 @@
 .content {
+    padding-top: var(--padding);
     width: 100%;
     display:grid;
     grid-template-columns: repeat(6, 1fr);
@@ -47,6 +48,7 @@
     .content {
         grid-template-columns: repeat(12, 1fr);
         grid-column-gap: var(--padding);
+        padding-top: 64px;
     }
 
     .project__title {

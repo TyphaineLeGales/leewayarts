@@ -1,0 +1,9 @@
+Title: Contact
+
+----
+
+Description: [{"content":{"text":"<p>For any inquiries please contact us at: <a href=\"mailto:floor@leewayart.org\"><strong>floor@leewayart.org</strong></a></p>"},"id":"d56d4506-a738-469d-b46e-26684ebf7637","isHidden":false,"type":"text"},{"content":{"text":"<p>If you would like to know more about upcoming Swarms, you are welcome to join the WhatsApp group following the link<a href=\"https://chat.whatsapp.com/IXLpsstON0N1pP4d2nV3WG\"> here</a>.</p>"},"id":"90aea312-4c5a-44e3-af7a-36305cb88ed2","isHidden":false,"type":"text"},{"content":{"text":"<p>Or DM us on Instagram swarm.movement</p>"},"id":"8ca2ea77-5c00-4582-86fa-f82e1a166d47","isHidden":false,"type":"text"},{"content":{"text":"<p>Visit our <a href=\"https://www.linkedin.com/in/floor-van-leeuwen-b2b993211?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrY4B98WvTG%2B7rWq8%2FNWdkg%3D%3D\">LinkedIn</a></p>"},"id":"6647f54d-d9d0-4354-97e6-4b5057bfddfc","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://zIoeHaWaqJYILyC5"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"44337b78-d4ff-4e5f-89c7-8698238b4ced","isHidden":false,"type":"image"},{"content":{"text":"<p><strong>Stichting Leeway for Arts</strong><br>Mathenesserdijk 271C<br>Rotterdam, Netherlands<br>Chamber of Commerce number:<br>(KvK) 77157532</p>"},"id":"6a35adb6-cd7e-4eef-a800-6b60c0d3f01d","isHidden":false,"type":"text"}]
+
+----
+
+Uuid: dRzdsqùk9oFrPuWkG

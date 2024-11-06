@@ -20,5 +20,7 @@ columns:
           - projects
           - project
           - topics
+          - donation
+          - contact
         
 

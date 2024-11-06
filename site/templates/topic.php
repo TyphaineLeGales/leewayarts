@@ -1,8 +1,17 @@
-<?php snippet('header') ?>
 <?= css([
     'assets/css/pagegrid.css',
-  ]) ?>
+    ]) ?>
+<?= js([
+    'assets/js/progressBar.js',
+    ]) ?>
+<?php snippet('header') ?>
+<div class="top">
+    <div id="progressContainer">
+        <div></div>
+    </div>
+</div>
 <div class="content">
+    <?php snippet('toc') ?>
     <h1 class="topic__row"><?= $page->title() ?></h1>
     <p class="topic__row">Written by <?= $page->author() ?> </p>
     <div class="topic__row">
@@ -15,7 +24,7 @@
     </div>
     <?php endforeach ?>
   
-    <h2 class="topic__row"> References </h2>
+    <h2 id="references" class="topic__row"> References </h2>
     <ul class="topic__row topic__references">
     <?php foreach($page->references()->toStructure() as $reference): ?>
         <li>

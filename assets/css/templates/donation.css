@@ -1,0 +1,60 @@
+.grid {
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto;
+    grid-row-gap: var(--padding);
+    grid-column-gap: calc(var(--padding)/2);
+}
+
+
+.grid_row {
+    grid-column-start: 1;
+    grid-column-end: 11;
+}
+
+.btn_container a {
+    border: solid black 1px;
+    border-radius: 30px;
+    padding: 3px 24px;
+    font-family: 'PPTelegraf';
+    font-weight: 700;
+    font-size: 36px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn_container a:hover {
+    background-color: black;
+    color: white;
+  }
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 48px 0;
+}
+
+.btn_container a:first-child{
+    margin-bottom: 24px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.block-type-text {
+ margin-bottom: 24px;
+}
+
+.block-type-image {
+    padding: calc(var(--padding)*6);
+}
+
+@media screen and (min-width: 60rem) {
+    .grid_row {
+        grid-column-start: 2;
+        grid-column-end: 6;
+    }   
+}

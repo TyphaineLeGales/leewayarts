@@ -1,0 +1,14 @@
+title: Donation
+
+sections: 
+  infos:
+    type: fields
+    fields: 
+      description: 
+        label: paragraphs 
+        type: blocks
+        fieldsets: 
+          - text
+          - heading
+          - quote
+          - image

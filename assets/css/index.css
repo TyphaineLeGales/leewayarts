@@ -86,15 +86,21 @@ small {
 }
 
 .header {
-  position: relative;
+  position: sticky;
+  top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items:flex-start;
   margin-right: 0;
+  margin-bottom: 0;
+  background-color:white;
+  height:24px;
+  z-index: 1;
 }
 
 .logo {
-  padding: 1rem 0;
+  padding:0;
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -103,6 +109,7 @@ small {
 
 .menu {
   display: flex;
+  height:fit-content;
 }
 .menu a {
   padding: 1rem;
@@ -178,6 +185,10 @@ h3 {
   font-weight: 500;
 }
 @media screen and (min-width: 60rem) {
+  .logo {
+    padding: 1rem 0;
+  }
+  
   h3 {
     font-size:36px;
   }
@@ -192,6 +203,10 @@ h3 {
 
   a {
     font-size: 18px;
+  }
+
+  .header {
+    height: 64px;
   }
 
 }

@@ -1,0 +1,14 @@
+title: Contact
+
+sections: 
+  infos:
+    type: fields
+    fields: 
+      description: 
+        label: paragraphs 
+        type: blocks
+        fieldsets: 
+          - text
+          - heading
+          - quote
+          - image
