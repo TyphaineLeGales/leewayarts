@@ -2,7 +2,31 @@ Title: Swarm Ants
 
 ----
 
-Thumbnail: swarm_ants_thumbnail.png
+Thumbnail: - file://LcbEixkBIVomPFPL
+
+----
+
+Carousel: - file://LcbEixkBIVomPFPL
+
+----
+
+Description: 
+
+----
+
+Quote: 
+
+----
+
+Video: 
+
+----
+
+Credits: 
+
+----
+
+Related: 
 
 ----
 

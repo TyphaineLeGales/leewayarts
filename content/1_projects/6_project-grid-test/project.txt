@@ -6,7 +6,7 @@ Thumbnail: - file://8y563832fHvjJAdz
 
 ----
 
-Carousel: 
+Carousel: - file://8y563832fHvjJAdz
 
 ----
 

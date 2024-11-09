@@ -1,0 +1,43 @@
+.list-item-image {
+    width: 100%; 
+    height: 90%;
+    background-size: cover;
+    transition: all 0.5s ease-out
+}
+
+.list-item-image:hover {
+    filter: grayscale(1)
+}
+
+.project__credits__people {
+    font-weight: 700;
+}
+
+.project__credit {
+    width: fit-content;
+}
+
+.project__credit:not(:last-child)::after {
+    content: ' |';
+}
+
+
+.project-list-row {
+    display: grid;
+    grid-gap:  var(--padding);
+    /* grid-template-columns: repeat(auto-fill,2fr); */
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(calc(100vw/1.25 - var(--padding)), 2fr); 
+    grid-auto-rows: minmax(250px, 1fr); 
+    overflow-x: auto;
+    white-space: nowrap;        
+    margin-bottom: calc(2*var(--padding));
+}
+
+@media screen and (min-width: 60rem) {
+    .project-list-row {
+        grid-auto-columns: minmax(calc(100vw/3 - var(--padding)), 3fr); 
+        grid-auto-rows: minmax(350px, 1fr); 
+    }
+
+}

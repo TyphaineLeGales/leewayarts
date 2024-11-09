@@ -2,15 +2,12 @@ Title: Test
 
 ----
 
-Thumbnail: - file://zrfpI1hs21sOoHIU
-
-----
-
 Carousel:
 
-- file://Lyu2H1w0makyUjk9
+- file://zrfpI1hs21sOoHIU
+- file://2SmtWbwX9nKBw3iy
+- file://zaEnfYCZdwe1jE5O
 - file://D20OW2QUJ3SHpEry
-- file://Hd7lXTMZZQFF1zAa
 
 ----
 
@@ -62,6 +59,10 @@ Related:
 
 - page://IHJ2wEHfWXhDDNGG
 - page://ECJT2o2vg035iiWZ
+
+----
+
+Thumbnail: - file://zrfpI1hs21sOoHIU
 
 ----
 

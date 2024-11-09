@@ -2,7 +2,37 @@ Title: Rise Baby Rise
 
 ----
 
-Thumbnail: rise_baby_rise_thumbnail.png
+Thumbnail: - file://5qubMBEmOWFB6k4N
+
+----
+
+Carousel:
+
+- file://grdPdIx16tVPVxvS
+- file://898knPGhkQHgqs5B
+- file://P63voYWh2SmWr5sd
+- file://EYNdkPkKRySK5puW
+- file://5qubMBEmOWFB6k4N
+
+----
+
+Description: 
+
+----
+
+Quote: 
+
+----
+
+Video: 
+
+----
+
+Credits: 
+
+----
+
+Related: 
 
 ----
 

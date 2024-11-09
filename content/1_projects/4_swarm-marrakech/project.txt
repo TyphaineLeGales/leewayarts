@@ -2,7 +2,31 @@ Title: Swarm Marrakech
 
 ----
 
-Thumbnail: swarm_marrakech_thumbnail.png
+Thumbnail: - file://aSuYlX4dfxW160pf
+
+----
+
+Carousel: - file://aSuYlX4dfxW160pf
+
+----
+
+Description: 
+
+----
+
+Quote: 
+
+----
+
+Video: 
+
+----
+
+Credits: 
+
+----
+
+Related: 
 
 ----
 

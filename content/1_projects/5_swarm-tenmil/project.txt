@@ -2,7 +2,31 @@ Title: Swarm Tenmil
 
 ----
 
-Thumbnail: swarm_tenmil_thumbnail.png
+Thumbnail: - file://z6D9t0bHmJXRjUqb
+
+----
+
+Carousel: - file://z6D9t0bHmJXRjUqb
+
+----
+
+Description: 
+
+----
+
+Quote: 
+
+----
+
+Video: 
+
+----
+
+Credits: 
+
+----
+
+Related: 
 
 ----
 

@@ -6,15 +6,11 @@ columns:
       media:
         type: fields
         fields:
-          thumbnail:
-            label: Thumbnail in project menu
-            type: files
-            min: 1
-            max: 1
           carousel:
             label: Carousel images
             type: files
             multiple: true
+            sortable: true
             layout: cards # options: cards, list, or table for display style in the panel
             image:
               cover: true # ensures the images are displayed as cover

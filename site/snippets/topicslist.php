@@ -1,5 +1,5 @@
 <?= css([
-    'assets/css/templates/project.css',
+    'assets/css/listItem.css',
   ]) ?>
 <?php $index = 0; foreach ($pages->find('topics')->children() as $project): $index++;?>
     <li>

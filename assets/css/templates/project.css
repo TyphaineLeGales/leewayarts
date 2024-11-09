@@ -1,43 +1,64 @@
-.list-item-image {
-    width: 100%; 
-    height: 90%;
-    background-size: cover;
-    transition: all 0.5s ease-out
+.project__images_container {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    transform: translateX(calc(var(--padding)*-1));
+    width: calc(100% + 2*var(--padding));
+    position: relative;
+    border: solid black 1px;
+    aspect-ratio: 16 / 9;
+    cursor: pointer;
 }
 
-.list-item-image:hover {
-    filter: grayscale(1)
+.project__image {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: absolute;
+    opacity: 0;
 }
 
-.project__credits__people {
-    font-weight: 700;
+.project__image_show {
+    opacity: 1;
 }
 
-.project__credit {
-    width: fit-content;
+.project__carousel_nav {
+    position: absolute;
+    display:flex;
+    bottom:12px;
+    width: 100%;
+    justify-content: center;
 }
 
-.project__credit:not(:last-child)::after {
-    content: ' |';
+.project__carousel_nav_btn {
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border:solid black 1px;
+
+    border-radius: 50%;
+    margin-right: 12px;
 }
 
-
-.project-list-row {
-    display: grid;
-    grid-gap:  var(--padding);
-    /* grid-template-columns: repeat(auto-fill,2fr); */
-    grid-auto-flow: column;
-    grid-auto-columns: minmax(calc(100vw/1.25 - var(--padding)), 2fr); 
-    grid-auto-rows: minmax(250px, 1fr); 
-    overflow-x: auto;
-    white-space: nowrap;        
-    margin-bottom: calc(2*var(--padding));
+.btn_active {
+    background-color:black;
+    border:solid white 1px;
 }
 
 @media screen and (min-width: 60rem) {
-    .project-list-row {
-        grid-auto-columns: minmax(calc(100vw/3 - var(--padding)), 3fr); 
-        grid-auto-rows: minmax(350px, 1fr); 
+    .project__images_container {
+        grid-column-start: 2;
+        grid-column-end: 12;
+        transform: translateX(0);     
     }
 
+    .project__carousel_nav_btn {
+        height: 25px;
+        width: 25px;
+    }
+
+    .project__carousel_nav {
+        bottom:var(--padding);
+    }
 }
