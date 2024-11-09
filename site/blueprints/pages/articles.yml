@@ -1,0 +1,19 @@
+title: Articles
+sections: 
+  articles:
+    type: fields
+    fields:
+      articles: 
+        type: structure
+        fields:
+          legend: 
+            label: article title
+            type: text
+          image:
+            label: article image
+            type: files
+            multiple: false
+            layout: cards
+          url:
+            label: article link
+            type: url
