@@ -1,11 +1,11 @@
 <?php snippet('header') ?>
   <?php snippet('intro') ?>
     <div>
-      <h1>Projects </h1>
+      <a href="/projects"><h1>Projects </h1></a>
       <div class="project-list-row">
         <?php snippet('projectlist') ?>
       </div>
-      <h1>Topics </h1>
+      <a href="/topics"><h1>Topics </h1></a>
       <div class="project-list-row">
         <?php snippet('topicslist') ?>
       </div>
