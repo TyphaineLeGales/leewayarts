@@ -40,10 +40,19 @@ footer {
 footer:before {
     content: "";
     display: block;
-    height: 2px;
+    height: 1px;
     background: var(--color-black);
     grid-column-start: 1;
     grid-column-end: -1;
+}
+
+.name {
+    color: black;
+    font-size: 36px;
+}
+
+.footer__contact li a {
+    color: black;
 }
 
 

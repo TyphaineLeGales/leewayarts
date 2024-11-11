@@ -9,18 +9,6 @@
     filter: grayscale(1)
 }
 
-.project__credits__people {
-    font-weight: 700;
-}
-
-.project__credit {
-    width: fit-content;
-}
-
-.project__credit:not(:last-child)::after {
-    content: ' |';
-}
-
 
 .project-list-row {
     display: grid;

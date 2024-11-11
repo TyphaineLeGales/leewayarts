@@ -23,5 +23,21 @@ columns:
           - donation
           - contact
           - articles
+  - width: 1/2 
+    fields:
+      socialLinks:
+        label: Social Links
+        type: structure
+        help: Add social media links that will be displayed in footer
+        fields:
+          platform:
+            label: Platform
+            type: text
+          url:
+            label: URL
+            type: url
+      email: 
+        label: Email
+        type: email
         
 

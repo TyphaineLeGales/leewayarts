@@ -16,11 +16,24 @@
         </li>
       <?php endforeach ?>
     </ul>
-    <div class="footer__contact">
-      <a>floor@leewayart.org</a>
-      <a>Instagram</a>
-      <a>LinkedIn</a>
-    </div>
+
+    <ul class="footer__contact">
+      <li>
+        <a href="mailto:<?= site()->email()?>" target="_blank" rel="noopener noreferrer">
+          <?= site()->email() ?>
+        </a>
+      </li>
+      <?php if ($socialLinks = site()->socialLinks()->toStructure()): ?>
+        <?php foreach ($socialLinks as $link): ?>
+          <li>
+            <a href="<?= $link->url() ?>" target="_blank" rel="noopener noreferrer">
+              <?= html($link->platform()) ?>
+            </a>
+          </li>
+        <?php endforeach ?>
+        <?php endif ?>
+      </ul>
+  
   </footer>
 
   <?= js([
