@@ -13,9 +13,39 @@
     grid-column-end: 7;
 }
 
+.intro_slider_btn {
+    display:flex;
+}
+
+.intro_slider_btn .arrow-icon-container {
+    cursor: pointer;
+}
+
+.intro_slider_btn .arrow-icon-container:hover {
+    background-color: black;
+}
+.intro_slider_btn .arrow-icon-container:hover .arrow {
+    fill: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.row_title {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.row_title a {
+    width: fit-content;
+}
+
 @media screen and (min-width: 60rem) {
     .intro > h3 {
         grid-column-start: 2;
         grid-column-end: 6;
+    }
+
+    .row_title {
+        align-items: center;
     }
 }

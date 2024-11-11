@@ -13,13 +13,13 @@
 .project-list-row {
     display: grid;
     grid-gap:  var(--padding);
-    /* grid-template-columns: repeat(auto-fill,2fr); */
     grid-auto-flow: column;
-    grid-auto-columns: minmax(calc(100vw/1.25 - var(--padding)), 2fr); 
+    grid-auto-columns: minmax(calc(100vw - var(--padding)), 2fr); 
     grid-auto-rows: minmax(250px, 1fr); 
     overflow-x: auto;
     white-space: nowrap;        
     margin-bottom: calc(2*var(--padding));
+    scroll-behavior: smooth;
 }
 
 @media screen and (min-width: 60rem) {
