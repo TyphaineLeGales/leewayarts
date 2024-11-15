@@ -12,3 +12,8 @@ const menuToggle = () => {
         overlay.style.display = 'block'
     }
 }
+document.addEventListener('click', (e) => {
+    if(e.target.id === "menu_overlay") {
+        menuToggle()
+    }
+})
