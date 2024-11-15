@@ -84,7 +84,8 @@
   }
 
   .about__team_member_description {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: normal;
   }
 
   .about__team_member_name, .about__team_member_role {

@@ -7,13 +7,6 @@
 
 @font-face {
   font-family: 'PPTelegraf';
-  src: url('../fonts/PPTelegraf-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PPTelegraf';
   src: url('../fonts/PPTelegraf-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
@@ -107,7 +100,8 @@ small {
   padding:0;
   display: flex;
   align-items: center;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 24px;
   cursor: pointer;
 }
 
@@ -196,7 +190,7 @@ h1 {
 
 h3 {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
 }
 @media screen and (min-width: 60rem) {
   .logo {
@@ -207,16 +201,19 @@ h3 {
     font-size:36px;
   }
 
-  h1 {
+  h1, h2 {
     font-size:60px;
+    margin-top: 96px;
   }
   
   p, li {
     font-size: 24px;
+    line-height: 1.8rem;
   }
 
   quote {
     font-size: 24px;
+    line-height: 1.8rem;
   }
 
   a {

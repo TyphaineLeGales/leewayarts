@@ -76,4 +76,8 @@ main {
     .project__carousel_nav {
         bottom:var(--padding);
     }
+
+    .project__text p {
+        margin-bottom: 1.8rem;
+    }
 }

@@ -6,7 +6,7 @@ $attrs = attr([
 ]);
 
 ?>
-<a <?= $attrs ?>>
+
   <img
     src="<?= esc($src, 'attr') ?>"
     alt="<?= esc($alt, 'attr') ?>"
@@ -15,4 +15,4 @@ $attrs = attr([
       object-fit: <?= ($contain ?? false) ? 'contain' : 'cover' ?>
     "
   >
-</a>
+

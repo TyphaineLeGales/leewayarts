@@ -23,7 +23,7 @@
 
     <nav class="menu">
       <button id="menuBtn" onclick="menuToggle()">
-        <p> Menu </p>
+        <p> menu </p>
       </button>
       <div class="nav_container ">
         <button class="menu_close" onclick="menuToggle()"> Close </button>

@@ -5,7 +5,7 @@
     <li>
         <a href="<?= $project->url() ?>">
             <div class="list-item-image" style="background-image: url('<?=  $project->thumbnail()->toFile()->url() ?>');"></div>
-            <?=  $project->title()?>
+            <p class="list-item-title"><?=  $project->title()?></p>
         </a>
     </li>
 <?php endforeach ?>

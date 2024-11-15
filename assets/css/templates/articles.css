@@ -17,4 +17,8 @@
         grid-auto-rows: minmax(550px, 1fr);
         grid-row-gap: calc(var(--padding)*3);
     }
+
+    .grid__item p {
+        margin-top: 12px;
+    }
 }
