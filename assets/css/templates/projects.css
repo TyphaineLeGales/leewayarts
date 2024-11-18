@@ -20,6 +20,10 @@
 
 }
 
+.grid__item_image:hover {
+    filter: grayscale(1)
+}
+
 @media screen and (min-width: 60rem) {
     .grid{
         grid-template-columns: repeat(6, 1fr);
