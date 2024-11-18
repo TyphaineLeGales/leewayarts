@@ -23,6 +23,7 @@ footer {
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
+    transform: translateX(-12px);
 }
 
 .footer__page_list li a {
@@ -35,6 +36,7 @@ footer {
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    transform: translateX(-12px);
 }
 
 footer:before {
@@ -87,12 +89,14 @@ footer ul {
         grid-column-start: 6;
         grid-column-end: -1;
         align-items: flex-end;
+        transform: translateX(0);
     }
 
     .footer__page_list {
         grid-column-start: 2;
         grid-column-end: 6;
         justify-content:center;
+        transform: translateX(0);
     }
 
     footer ul li {
