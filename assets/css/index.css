@@ -89,6 +89,7 @@ small {
 .header {
   position: sticky;
   top: 0;
+  padding: 6px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

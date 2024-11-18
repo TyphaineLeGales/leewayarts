@@ -1,11 +1,12 @@
 .project__prevnext {
+    margin-top: 46px;
     margin-bottom: 24px;
 }
 
 .subNav a {
     letter-spacing:auto;
     display:flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .subNav a p {
@@ -41,7 +42,7 @@
     border: solid black 1px;
     padding: 6px;
     border-radius: 50%;
-    margin-right: 12px;
+    margin-right: 6px;
     background-color:white;
 }
 
@@ -53,5 +54,9 @@
 @media screen and (min-width: 60rem) {
     .subNav a {
         letter-spacing: 0.8rem;
+    }
+
+    .arrow-icon-container {
+        margin-right: 12px;
     }
 }

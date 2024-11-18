@@ -15,7 +15,7 @@
 
 .intro_slider_btn {
     display:flex;
-    min-height: 50px;
+    margin-bottom:6px;
 }
 
 .intro_slider_btn .arrow-icon-container {
