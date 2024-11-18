@@ -11,6 +11,10 @@
 
 }
 
+.grid__item {
+    aspect-ratio: 1 / 1;
+}
+
 @media screen and (min-width: 60rem) {
     .grid {
 
