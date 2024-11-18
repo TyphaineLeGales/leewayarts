@@ -1,6 +1,6 @@
 .top {
     position:sticky;
-    top:23px;
+    top:47px;
     background-color: white;
     width: calc(100% + 24px);
     transform: translateX(calc(var(--padding)*-1));
@@ -64,6 +64,12 @@
 .topic__references li  {
     margin-bottom: 0;
 }
+
+
+.topic__row h1 {
+    margin:0;
+}
+
 
 html {
     scroll-behavior: smooth;
