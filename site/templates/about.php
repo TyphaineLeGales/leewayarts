@@ -38,9 +38,9 @@
   A major factors in the process of this website was the importance to  create a sustainable, low carbon and optimised website for Leeway. We have implemented this value throughout the development of  this project. The internet is a power hungry medium: it consumes  416.2TWh per year (by comparison, that’s more than UK's entire yearly  carbon footprint) and thus we thought it crucial to create a website  with a minimal carbon footprint.
   </p>
   <h2 class="middle-layout">Credits</h2>
-  <div class="middle-layout">
-    <p >Graphic and web design by Nadine Rotem-Stibbe</p>
-    <p>Back/front web development Typhaine Le Galès</p>
+  <div class="middle-layout credits">
+    <p >Graphic and web design by <a href="https://www.nadiners.com/" target="_blank">Nadine Rotem-Stibbe</a></p>
+    <p>Back/front web development <a href="https://typhainelegales.com/">Typhaine Le Galès</a></p>
   </div>
   
 </div>

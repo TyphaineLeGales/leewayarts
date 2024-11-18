@@ -62,11 +62,22 @@
     border-radius: 25px;
     padding: 0 12px;
     transition: all 0.3s ease-in-out;
+    font-size: 18px;
 }
 
 .content a:hover {
   background-color: black;
   color: white;
+}
+
+.credits a {
+  border: none;
+  text-decoration: underline;
+}
+
+.credits a:hover {
+  background-color: white;
+  color: black;
 }
 
 
@@ -89,6 +100,10 @@
   }
 
   .about__team_member_name, .about__team_member_role {
+    font-size: 24px;
+  }
+
+  .content a {
     font-size: 24px;
   }
 
