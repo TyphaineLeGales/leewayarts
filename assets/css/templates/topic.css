@@ -107,6 +107,10 @@ html {
     .topic__references li span a {
         font-size: 24px;
     }
+
+    .top {
+        top: 88px;
+    }
     
     
 }
