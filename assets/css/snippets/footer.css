@@ -63,8 +63,8 @@ footer h2 {
 }
 
 footer ul li {
-    margin: 0 6px;
-}
+    padding: 6px 12px;
+ }
 footer ul,
 footer p {
     color: var(--color-text-grey);
@@ -93,6 +93,10 @@ footer ul {
         grid-column-start: 2;
         grid-column-end: 6;
         justify-content:center;
+    }
+
+    footer ul li {
+       padding: 0 6px;
     }
 
     
