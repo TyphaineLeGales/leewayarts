@@ -33,7 +33,15 @@
     <ul class="topic__row topic__references">
     <?php foreach($page->references()->toStructure() as $reference): ?>
         <li>
-            <?= $reference->date() ?> <span class="topic__reference__title"><?= $reference->title() ?> </span><?= $reference->info() ?>
+            <?= $reference->date() ?> <span class="topic__reference__title"><?= $reference->title() ?></span>
+            <?php if ($reference->info()): ?>
+            <?= $reference->info() ?>
+            <?php endif; ?>
+            <?php if ($reference->link()): ?>
+                <span>
+                    <a href="<?= $reference->link() ?>" target="_blank"><?= $reference->link() ?></a>
+                </span>
+            <?php endif; ?>
         </li>
     <?php endforeach ?>
     </ul>

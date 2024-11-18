@@ -32,8 +32,11 @@ columns:
                   label: Title of reference
                   type: text
                 info: 
-                  label: Other info like source or press
+                  label: Press info
                   type: text
+                link: 
+                  label: Source link
+                  type: url
 
   - width: 2/3
     sections:

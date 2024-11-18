@@ -68,7 +68,12 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 64px;
-  }
+}
+
+.topic__references li span a {
+    text-decoration: underline;
+    font-size: 12px;
+}
 
 
 @media screen and (min-width: 60rem) {
@@ -91,6 +96,10 @@ html {
         width: calc(100% + 48px);
         transform: translateX(calc(var(--padding)*-1));
         top:64px;
+    }
+
+    .topic__references li span a {
+        font-size: 24px;
     }
     
     

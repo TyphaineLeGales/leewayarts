@@ -15,6 +15,7 @@
 
 .intro_slider_btn {
     display:flex;
+    min-height: 50px;
 }
 
 .intro_slider_btn .arrow-icon-container {
@@ -31,7 +32,7 @@
 
 .row_title {
     display:flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
