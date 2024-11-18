@@ -50,7 +50,7 @@
 }
 
 .topic__references li {
-    list-style: inside;
+    list-style: disc;
 }
 
 .topic__references li::marker {

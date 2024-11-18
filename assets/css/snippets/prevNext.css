@@ -4,6 +4,12 @@
 
 .subNav a {
     letter-spacing:auto;
+    display:flex;
+    align-items: flex-end;
+}
+
+.subNav a p {
+    margin-bottom: 0;
 }
 
 .subNav a:hover {
@@ -32,7 +38,6 @@
 }
 
 .arrow-icon-container {
-    transform: translateY(10px);
     border: solid black 1px;
     padding: 6px;
     border-radius: 50%;
@@ -41,7 +46,7 @@
 }
 
 .arrow-icon-container:has(.left){
-    margin-left: 12px;
+    margin-left: 6px;
     margin-right: 0;
 }
 
