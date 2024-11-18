@@ -3,7 +3,7 @@
   ]) ?>
 
 <div class="related middle-layout">
-    <h3> Related pages <h3>
+    <h3> Related pages </h3>
     <ul class="related__link">
         <?php
         $related = $page->related()->toPages();
