@@ -26,6 +26,11 @@
     scroll-behavior: smooth;
 }
 
+.project-list-row li {
+        height: 100%;
+        width: 100%;
+}
+
 @media screen and (min-width: 60rem) {
     .project-list-row {
         grid-auto-columns: minmax(calc(100vw/3 - var(--padding)), 3fr); 
