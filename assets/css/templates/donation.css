@@ -20,7 +20,7 @@
     padding-bottom: 3px;
     font-family: 'PPTelegraf';
     font-weight: 700;
-    font-size: 36px;
+    font-size: 24px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -76,5 +76,9 @@
 
     .block-type-heading h3 {
         margin-top: 48px;
+    }
+
+    .btn_container a {
+        font-size:36px
     }
 }
