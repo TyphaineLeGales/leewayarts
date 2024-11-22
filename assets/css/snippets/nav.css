@@ -57,6 +57,14 @@
     mix-blend-mode: saturation;
 }
 
+@supports (background: -webkit-named-image(i)) {
+    #menu_overlay {
+        opacity: 0;
+    }
+} /** Safari */
+
+
+
 @media screen and (min-width: 60rem) {
     .nav_container {
         width: 50vw;
@@ -74,3 +82,4 @@
 
     
 }
+
