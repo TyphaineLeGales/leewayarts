@@ -19,13 +19,12 @@
 }
 
 .block-type-text p a {
-    font-weight: 700;
     text-decoration: underline;
-    font-size: 18px;
 }
 
 .block-type-text p {
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 1.4rem;
 }
 
 @media screen and (min-width: 60rem) {
@@ -35,24 +34,15 @@
         padding: 0 64px;
         
     }
-    
-    .block-type-text p {
-        font-size: 36px;
-    }
-    
-
-    .block-type-text p a {
-        font-size: 36px;
-    }
 
     .grid_row {
         grid-column-start: 2;
         grid-column-end: 6;
     }
 
-    .block-type-text:last-child p{
-        font-size: 24px;
+    .block-type-text p {
+        font-size:24px;
+        line-height: 1.8rem;
     }
-    
 
 }

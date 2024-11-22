@@ -53,7 +53,15 @@ h2, h4 {
     margin-top: 0;
 }
 
-#about h2 {
+.bank_details p {
+    margin-top: 0;
+}
+
+#donation h4 {
+    font-weight: 400;
+}
+
+#about h2, #donation h4{
     margin-top: 24px;
 }
 
@@ -109,7 +117,7 @@ h2, h4 {
         margin-bottom: 0;
     }
 
-    #about h2 {
+    #about h2, #donation h4 {
         margin-top: 48px;
     }
 
@@ -126,7 +134,7 @@ h2, h4 {
         margin-top: 12px;
     }
 
-    .footer__page_list li a, .footer__contact li a, .project__credits, .topic__references li, .about__team_member_description {
+    .footer__page_list li a, .footer__contact li a, .project__credits, .topic__references li, .about__team_member_description, .bank_details p {
         font-size: 18px;
         line-height: 1.4rem;
     }

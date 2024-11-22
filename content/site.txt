@@ -18,4 +18,20 @@ Email: info@leewayart.org
 
 ----
 
+Accountname: Stichting Leeway for Arts
+
+----
+
+Iban: NL53ABNA0107844303
+
+----
+
+Bic: ABNANL2A
+
+----
+
+Adress: Mathenesserdijk 271C, 3026 GA Rotterdam, Netherlands
+
+----
+
 Uuid: 7hq2RUkhwdslkqmUSh

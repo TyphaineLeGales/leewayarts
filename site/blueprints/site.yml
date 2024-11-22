@@ -24,20 +24,43 @@ columns:
           - contact
           - articles
   - width: 1/2 
-    fields:
-      socialLinks:
-        label: Social Links
-        type: structure
-        help: Add social media links that will be displayed in footer
+    sections: 
+      contact: 
+        type: fields
         fields:
-          platform:
-            label: Platform
+          socialLinks:
+            label: Social Links
+            type: structure
+            help: Add social media links that will be displayed in footer
+            fields:
+              platform:
+                label: Platform
+                type: text
+              url:
+                label: URL
+                type: url
+          email: 
+            label: Email
+            type: email
+      bankDetails: 
+        type: fields
+        fields: 
+          accountName: 
+            label: Account name 
             type: text
-          url:
-            label: URL
-            type: url
-      email: 
-        label: Email
-        type: email
+          iban: 
+            label: IBAN
+            type: text
+          bic: 
+            label: BIC
+            type: text
+          adress: 
+            label: adress
+            type: text
+
+          
+
+
+
         
 
