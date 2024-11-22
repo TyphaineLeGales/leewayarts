@@ -77,7 +77,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 64px;
+    scroll-padding-top: 128px;
 }
 
 .topic__references li span a {
