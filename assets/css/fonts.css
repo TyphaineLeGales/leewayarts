@@ -41,6 +41,10 @@ h1, .nav_container ul li a {
     line-height: 1.8rem !important;
 }
 
+#menuBtn p {
+    margin: 0;
+}
+
 h2, h4 {
     font-size: 24px;
     line-height: 1.8rem;
