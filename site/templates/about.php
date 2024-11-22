@@ -3,7 +3,7 @@
 <?= css([
     'assets/css/pagegrid.css',
   ]) ?>
-<div class="content">
+<div class="content" id="about">
   <h1 class="middle-layout"><?= $page->title() ?></h1>
   <?php foreach ($page->article()->toBlocks() as $block): ?>
     <div class="middle-layout block block-type-<?= $block->type() ?>">

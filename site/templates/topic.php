@@ -14,8 +14,8 @@
 <div class="content">
     <?php snippet('toc') ?>
     <div class="topic__row">
-    <h1 ><?= $page->title() ?></h1>
-    <p >Written by <?= $page->author() ?> </p>
+        <h1 ><?= $page->title() ?></h1>
+        <h4>Written by <?= $page->author() ?> </h4>
     </div>
 
    

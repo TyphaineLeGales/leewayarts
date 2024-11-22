@@ -3,7 +3,7 @@
     scroll-behavior: smooth;
 }
 
-.toc ol li a:hover {
+.toc ul li a:hover {
     letter-spacing: 0.75rem;
     transition: all 0.2s ease-out;
     font-weight: 700;

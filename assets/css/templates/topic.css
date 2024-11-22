@@ -49,6 +49,10 @@
     grid-column-end: 11;
 }
 
+.topic__references {
+    margin-left: 12px;
+}
+
 .topic__references li {
     list-style: disc;
 }
@@ -78,7 +82,6 @@ html {
 
 .topic__references li span a {
     text-decoration: underline;
-    font-size: 12px;
 }
 
 
@@ -103,11 +106,7 @@ html {
         transform: translateX(calc(var(--padding)*-1));
         top:64px;
     }
-
-    .topic__references li span a {
-        font-size: 24px;
-    }
-
+    
     .top {
         top: 88px;
     }

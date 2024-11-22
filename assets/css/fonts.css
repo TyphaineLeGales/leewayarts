@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'PPTelegraf';
+    src: url('../fonts/PPTelegraf-Regular.ttf') format('truetype');
+    font-weight:400;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'PPTelegraf';
+    src: url('../fonts/PPTelegraf-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+h1 {
+    margin: 48px 0 ;
+}
+
+h1, .nav_container ul li a {
+    font-size: 36px;
+    line-height: 2.7rem;
+}
+
+.related h3 {
+    font-size: 24px;
+    line-height: 1.8rem;
+    font-weight: 400;
+    margin-top: 96px;
+}
+
+.logo, #menuBtn > p, .name {
+    font-size: 24px !important;
+    line-height: 1.8rem !important;
+}
+
+h2, h4 {
+    font-size: 24px;
+    line-height: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.topic__writer {
+    font-weight: 400;
+    margin-top: 0;
+}
+
+#about h2 {
+    margin-top: 24px;
+}
+
+.intro h3, .related__link li a  {
+    font-size: 18px;
+    line-height: 1.4rem;
+    font-weight: 400;
+}
+
+.list-item-title, .footer__page_list li a, .footer__contact li a, .list__title, p, quote, blockquote, .project__credits {
+    font-size: 16px;
+    line-height: 1.2rem;
+    margin-top: 12px;
+}
+
+.topic__references li {
+    font-size: 14px;
+    line-height: 1rem;
+}
+
+.footer__item__copyright p, .about__team_member_description  {
+    font-size: 12px;
+    line-height:0.9rem;
+}
+
+
+@media screen and (min-width: 60rem) {
+    h1 {
+        margin: 96px 0 ;
+    }
+    h1, .nav_container ul li a {
+        font-size: 60px;
+        line-height: 2.7rem;
+    }
+
+    .logo, #menuBtn > p, .intro h3, .name, h4{
+        font-size: 36px !important;
+        line-height: 2.7rem !important;
+        font-weight: 400;
+    }
+
+    .topic__writer {
+        margin-top: 12px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 2.7rem;
+        margin-bottom: 24px;
+    }
+
+    #references {
+        margin-bottom: 0;
+    }
+
+    #about h2 {
+        margin-top: 48px;
+    }
+
+    .related h3 {
+        font-size: 36px;
+        line-height: 2.7rem;
+        font-weight: 400;
+        margin-top: 24px;
+    }
+
+    .list-item-title, .list__title, p, quote, .toc ul li a {
+        font-size: 24px;
+        line-height: 1.8rem;
+        margin-top: 12px;
+    }
+
+    .footer__page_list li a, .footer__contact li a, .project__credits, .topic__references li, .about__team_member_description {
+        font-size: 18px;
+        line-height: 1.4rem;
+    }
+
+    .footer__item__copyright p {
+        font-size: 14px;
+        line-height: 1rem;
+    }
+
+
+    
+
+    
+
+}

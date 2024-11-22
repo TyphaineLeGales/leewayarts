@@ -8,7 +8,7 @@
                     $thumbnail = $project->carousel()->toFiles()->first(); 
                 ?>
                 <div class="grid__item_image" style="background-image: url('<?=  $thumbnail->url() ?>');"></div>
-                <?=  $project->title()?>
+                <p class="list__title"><?=  $project->title()?></p>
             </a>
         </li>
     <?php endforeach ?>

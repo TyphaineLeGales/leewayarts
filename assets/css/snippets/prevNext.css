@@ -28,6 +28,9 @@
     transition: all 0.3s ease-in-out;
 }
 
+.subNav a p {
+    margin-top: 0;
+}
 
 .arrow {
     fill: black;

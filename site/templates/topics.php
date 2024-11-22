@@ -8,7 +8,7 @@
         <li class="grid__item">
             <a href="<?= $project->url() ?>">
                 <div class="grid__item_image" style="background-image: url('<?=  $project->thumbnail()->toFile()->url() ?>');"></div>
-                <?=  $project->title()?>
+                <p class="list__title"><?=  $project->title()?></p>
             </a>
         </li>
     <?php endforeach ?>

@@ -52,15 +52,12 @@
   margin-bottom: 24px;
 }
 
-.about__team_member_description {
-  font-size: 12px;
-}
 
 .content a {
     width: fit-content;
     border: solid black 1px;
     border-radius: 25px;
-    padding: 0 12px;
+    padding: 0 9px;
     transition: all 0.3s ease-in-out;
     font-size: 18px;
 }
@@ -92,11 +89,6 @@
 
   .about__partners {
     grid-template-columns: repeat(4, 1fr);
-  }
-
-  .about__team_member_description {
-    font-size: 16px;
-    line-height: normal;
   }
 
   .about__team_member_name, .about__team_member_role {

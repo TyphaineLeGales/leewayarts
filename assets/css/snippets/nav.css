@@ -18,13 +18,15 @@
     transform: translateX(25vw); /* Slide in */ 
 }
 
-.flex-center {
+.nav_container ul {
     display:flex; 
     justify-content: flex-start;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     height: 100%;
     margin-top: 48px;
+    width: fit-content;
+    align-self: center;
 }
 
 .menu_content {
@@ -37,9 +39,6 @@
     font-size:24px;
 }
 
-.nav_container div a {
-    font-size:36px;
-}
 
 .nav_container div a:hover {
     letter-spacing: 0.8rem;
@@ -60,10 +59,6 @@
     mix-blend-mode: saturation;
 }
 
-#menuBtn p{
-    font-size: 24px;
-}
-
 @media screen and (min-width: 60rem) {
     .nav_container {
         width: 50vw;
@@ -73,12 +68,10 @@
         transform: translateX(50vw); /* Slide in */ 
     }
 
-    .nav_container div a {
-        font-size:60px;
-    }
 
     .menu_close {
         font-size:36px;
+        line-height: 2.7rem;
     }
 
     

@@ -7,15 +7,14 @@ footer {
     grid-auto-rows: auto;
     overflow-x: auto;
     white-space: nowrap; 
+    padding-bottom: 12px;
 }
 
 .footer__item__copyright {
     grid-column-start: 1;
     -ms-grid-column-span: 1;
 }
-.footer__item__copyright p:last-child {
-    font-size: 14px;
-}
+
 
 .footer__page_list {
     grid-column-start: 1;
@@ -26,9 +25,6 @@ footer {
     transform: translateX(-12px);
 }
 
-.footer__page_list li a {
-    font-size: 16px;
-}
 
 .footer__contact {
     grid-column-start: 1;
@@ -50,13 +46,11 @@ footer:before {
 
 .name {
     color: black;
-    font-size: 36px;
 }
 
 .footer__contact li a {
     color: black;
 }
-
 
 
 footer h2 {
@@ -84,7 +78,12 @@ footer ul {
     align-items:center;
 }
 
+
+
 @media screen and (min-width: 60rem) {
+    footer {
+        padding-bottom: 24px;
+    }
     .footer__contact {
         grid-column-start: 6;
         grid-column-end: -1;

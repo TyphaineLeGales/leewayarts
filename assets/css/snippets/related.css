@@ -6,7 +6,7 @@
 .related__link li a {
     border: solid black 1px;
     border-radius: 25px;
-    padding: 6px;
+    padding: 0 9px;
    
 }
 
@@ -18,11 +18,4 @@
 
 .related__link > li:not(:first-child) {
     padding-left: 6px;
-}
-
-
-@media screen and (min-width: 60rem) {
-    .related h3 {
-        margin-top:72px
-    }
 }

@@ -6,13 +6,9 @@
 }
 
 .list-item-image:hover {
-    filter: grayscale(1)
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
 }
-
-.list-item-title {
-    margin-top: 12px;
-}
-
 
 .project-list-row {
     display: grid;

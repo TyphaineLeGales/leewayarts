@@ -7,6 +7,7 @@
   <?= css([
     'assets/css/prism.css',
     'assets/css/lightbox.css',
+    'assets/css/fonts.css',
     'assets/css/index.css',
     'assets/css/snippets/nav.css',
     '@auto'
@@ -27,15 +28,15 @@
       </button>
       <div class="nav_container ">
         <button class="menu_close" onclick="menuToggle()"> Close </button>
-        <div class="flex-center">
-        <?php foreach ($site->children()->listed() as $rootPage): ?>
-          <li>
-            <a href="<?= $rootPage->url() ?>">
-              <?= $rootPage->title()->html() ?>
-            </a>
-          </li>
-        <?php endforeach ?>
-        </div>
+        <ul>
+          <?php foreach ($site->children()->listed() as $rootPage): ?>
+            <li>
+              <a href="<?= $rootPage->url() ?>">
+                <?= $rootPage->title()->html() ?>
+              </a>
+            </li>
+          <?php endforeach ?>
+          </ul>
         <div></div>
       </div>
       

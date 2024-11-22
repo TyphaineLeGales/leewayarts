@@ -1,17 +1,3 @@
-@font-face {
-  font-family: 'PPTelegraf';
-  src: url('../fonts/PPTelegraf-Regular.ttf') format('truetype');
-  font-weight:400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PPTelegraf';
-  src: url('../fonts/PPTelegraf-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -105,8 +91,6 @@ small {
   padding:0;
   display: flex;
   align-items: center;
-  font-weight: 400;
-  font-size: 24px;
   cursor: pointer;
 }
 
@@ -164,68 +148,29 @@ small {
 a {
   color: currentColor;
   text-decoration: none;
-  font-size: 14px; 
-  font-weight: 400;
  
 }
 
 quote, blockquote {
   font-family: 'PPTelegraf';
-  font-weight: 400;
-  font-size: 12px;
 }
 
 
 p, li, a, button{
   font-family: 'PPTelegraf';
-  font-weight: 400;
-  font-size: 12px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 30px;
-  font-weight: bold;
-  line-height: inherit;
   font-family: 'PPTelegraf';
   text-wrap: pretty;
 }
 
-h1 {
-  font-size: 36px;
-  margin: 48px 0;
-}
 
-h3 {
-  font-size: 18px;
-  font-weight: 400;
-}
 @media screen and (min-width: 60rem) {
   .logo {
     padding: 1rem 0;
   }
   
-  h3 {
-    font-size:36px;
-  }
-
-  h1, h2 {
-    font-size:60px;
-    margin-top: 96px 0 ;
-  }
-  
-  p, li {
-    font-size: 24px;
-    line-height: 1.8rem;
-  }
-
-  quote, blockquote {
-    font-size: 24px;
-    line-height: 1.8rem;
-  }
-
-  a {
-    font-size: 18px;
-  }
 
   .header {
     height: 64px;
@@ -239,9 +184,7 @@ h3 {
 }
 
 
-.text {
-  line-height: 1.5em;
-}
+
 .text a {
   text-decoration: underline;
 }
@@ -276,19 +219,7 @@ h3 {
 .text ol ol {
   margin-bottom: 0;
 }
-.text h1,
-.h1,
 
-.text h2,
-.h2 {
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-bottom: 1.25rem;
-}
-.text h3,
-.h3 {
-  font-weight: 600;
-}
 .text .codeblock {
   display: grid;
 }
@@ -475,21 +406,4 @@ hr {
   color: var(--color-white);
   border-color: var(--color-black);
 }
-
-.note-excerpt {
-  line-height: 1.5em;
-}
-.note-excerpt header {
-  margin-bottom: 1.5rem;
-}
-.note-excerpt figure {
-  margin-bottom: .5rem;
-}
-.note-excerpt-title {
-  font-weight: 600;
-}
-.note-excerpt-date {
-  color: var(--color-text-grey);
-}
-
 
