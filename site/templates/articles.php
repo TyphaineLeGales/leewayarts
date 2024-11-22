@@ -14,7 +14,7 @@
                 : ($article->url()->isNotEmpty() ? $article->url() : '#'); // Otherwise, use the external URL, or fallback to '#'
             $isPdf = $file ? $file->extension() === 'pdf' : false;
             ?>
-            <a href="<?= $url ?>" <?= $isPdf ? '' : "target='_blank'" ?>>
+            <a href="<?= $url ?>" target='_blank'>
                 <div class="grid__item_image" style="background-image: url('<?= $article->image()->toFile()->url() ?>');"></div>
             </a>
             <p><?= $article->legend() ?></p>
