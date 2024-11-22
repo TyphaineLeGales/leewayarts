@@ -17,3 +17,9 @@ sections:
           url:
             label: article link
             type: url
+          pdf:
+            label: PDF File
+            type: files
+            multiple: false
+            filetypes:
+              - pdf
