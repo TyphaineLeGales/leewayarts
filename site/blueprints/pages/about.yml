@@ -16,7 +16,7 @@ columns:
               fieldsets: 
                 - text
                 - heading
-  -width: 1/1
+  - width: 1/1
     sections:
       team:
         type: fields

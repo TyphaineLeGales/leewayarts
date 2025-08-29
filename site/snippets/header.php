@@ -19,8 +19,11 @@
 <body>
   <header class="header">
     <a class="logo" href="<?= $site->url() ?>">
-      <?= $site->title()->esc() ?>
+      <?php if ($logo = $site->logo()->toFile()): ?>  
+        <img src="<?= $site->logo()->toFile()->url() ?>" alt="Logo">
+      <?php endif ?>
     </a>
+  
 
     <nav class="menu">
       <button id="menuBtn" onclick="menuToggle()">

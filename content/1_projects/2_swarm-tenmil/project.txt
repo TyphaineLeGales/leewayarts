@@ -1,0 +1,53 @@
+Title: Dance and Therapy for trauma relief
+
+----
+
+Carousel: - file://3zghijWfMxm6L0OZ
+
+----
+
+Description: [{"content":{"text":"<p>This Swarm project was created to support children and young people in Morocco recovering from the devastating earthquake of September 8, 2023. This catastrophe caused widespread destruction, particularly in rural areas like Talat N’Yakoub, leaving deep emotional scars on affected communities. Now, over a year later, many of the large corporations have left the area, while the trauma left by the earthquake remains. Recognizing the need for innovative approaches to healing, we developed Swarm, a program that combines collective dance, art, and therapy to support children processing trauma, rebuild resilience, and foster a sense of hope for the future.</p><p>Through creative, community-driven interventions, Swarm empowers participants to confront mental health challenges while breaking the silence surrounding therapy in Morocco. <br><br>&nbsp;Dancing through a place that holds trauma recontextualizes the space, and allows participants to make new memories there.Swarm events are dynamic, participatory experiences designed to create moments of joy and freedom for participants while opening pathways to deeper emotional healing.</p><p>The pilot event, held in Tinmel on July 8, 2024, demonstrated the potential of this approach. The event was aimed at children, who were invited to join a collective dance event, but their joy ignited their parents and siblings to also join the dance. Before and after the swarm, participants were invited to share their feelings in a group conversation lead by a psychologist.</p><p>The pilot’s success went beyond the immediate impact of the event. The Swarm generated trust in the families who participated, and many of them applied for long-term therapeutic support offered for free by Terra Psy, a local organisation, breaking down cultural taboos around mental health. Inspired by this outcome, we now aim to expand Swarm to more villages in the earthquake zone, creating lasting connections between residents and therapeutic organisations.</p>"},"id":"d4fb9514-2feb-4c10-8f84-f1db4b84a074","isHidden":false,"type":"text"}]
+
+----
+
+Quote: 
+
+----
+
+Video: 
+
+----
+
+Credits:
+
+- 
+  role: Concept
+  people: Floor van Leeuwen, Souhail Abounnaim
+- 
+  role: Dance
+  people: Simo Makbol
+- 
+  role: Music
+  people: Abdellah Hassak
+- 
+  role: Visual Art
+  people: Ayoub Afrofatcap
+- 
+  role: Special thanks to
+  people: >
+    The people of Tinmel, Omar the Mokadem,
+    Abdessamad président of Tinmel
+    association, Dar Bleu, Le18 Marrakech,
+    DJ Cheb Runner, Simomo Boujara
+
+----
+
+Related: 
+
+----
+
+Thumbnail: - file://z6D9t0bHmJXRjUqb
+
+----
+
+Uuid: nHOcfmgl3HlO7c8A

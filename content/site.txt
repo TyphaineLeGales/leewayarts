@@ -2,11 +2,20 @@ Title: Leeway
 
 ----
 
+Logo: - file://jgxmzjvmzulr8wkx
+
+----
+
+Logofooter: - file://6bvvynxahmhw2a4k
+
+----
+
 Sociallinks:
 
 - 
   platform: Instagram
-  url: https://www.instagram.com/raevingswarm/
+  url: >
+    https://www.instagram.com/swarm.movement/
 - 
   platform: LinkedIn
   url: >
@@ -30,8 +39,12 @@ Bic: ABNANL2A
 
 ----
 
-Adress: Mathenesserdijk 271C, 3026 GA Rotterdam, Netherlands
+Adress: Haagweg 6, 2311AA Leiden, Netherlands
 
 ----
 
 Uuid: 7hq2RUkhwdslkqmUSh
+
+----
+
+Logocompact: - file://6bvvynxahmhw2a4k

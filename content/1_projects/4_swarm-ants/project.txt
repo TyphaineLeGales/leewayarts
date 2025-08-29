@@ -1,0 +1,55 @@
+Title: Swarm Antes
+
+----
+
+Carousel: - file://j5sMPAtjSBPxIeKL
+
+----
+
+Description: [{"content":{"text":"<p>On October 27, 2022, The Swarm danced for the first time at the psychiatric clinic Antes Poortugaal. A group from the addiction clinic, consisting of both clients and therapists, met with a group of dancers from Swarm. DJ Cheb Runner played a mix of his own music and local hits.</p><p>Sylvie de Kubber, counselor at Antes, had invited Swarm. She noted that while there was a lot of conversation in the clinic about problems, there were few opportunities for movement and joy. Beforehand, Sylvie said that if <em>even one person</em> was touched by the Swarm, it would already be a success.</p><p>It turned out to be a hit—not just one, but <em>everyone</em> who participated had a joyful experience. Moreover, the joyful dance proved to be contagious, affecting people throughout the grounds and even in the village. A whole daycare center cheered and jumped along from the playground, and an elderly woman danced behind her window. It was a heartwarming experience.</p><p>Afterward, participants asked if we could do this every week. Eventually, it became a seasonal event. The experience of dancing in the open air became linked to celebrating the seasons.</p>"},"id":"2b927ff2-3d67-4653-8e3c-5fafd7c84390","isHidden":false,"type":"text"}]
+
+----
+
+Quote: 
+
+----
+
+Video: 
+
+----
+
+Credits:
+
+- 
+  role: Choreography
+  people: Floor van Leeuwen
+- 
+  role: Mental Health Facilitator
+  people: Sylvie de Kubber
+- 
+  role: Music
+  people: Reda Senhaji / DJ Cheb Runner
+- 
+  role: Impact Assessment
+  people: Samuël van der Spek
+- 
+  role: Experiential Expert
+  people: Sahra Ahmed
+- 
+  role: Produced by
+  people: Stichting Leeway
+- 
+  role: Performed at
+  people: Antes Poortugaal
+
+----
+
+Related: 
+
+----
+
+Thumbnail: - file://LcbEixkBIVomPFPL
+
+----
+
+Uuid: ECJT2o2vg035iiWZ

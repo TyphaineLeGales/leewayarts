@@ -164,11 +164,24 @@ h1, h2, h3, h4, h5, h6 {
   text-wrap: pretty;
 }
 
+.logo > img {
+  width: 180px;
+}
+
+#logoFooter {
+  max-height: 130px;
+  max-width: 134;
+}
+
 
 @media screen and (min-width: 60rem) {
   .logo {
     padding: 1rem 0;
   }
+
+  .logo > img {
+  width: 220px;
+}
   
 
   .header {

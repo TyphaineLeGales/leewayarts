@@ -1,0 +1,76 @@
+Title: Swarm Marrakech - club without walls
+
+----
+
+Carousel: - file://Lxn5i5GHqAikQtgY
+
+----
+
+Description: [{"content":{"text":"<p>In December 2023, Leeway conducted research in Marrakech on how the swarm, as a club without walls, could intertwine itself with the social structure of public life in the Medina of Marrakech. Through a gradual process—initially walking the streets a few times with soft music and a small team, and engaging in conversations with shopkeepers who were present in the Medina every day—the swarm was able to temporarily become part of the daily movement of the Medina.</p>"},"id":"e4a5cb2b-4aba-4518-b568-2be8bbfd1455","isHidden":false,"type":"text"}]
+
+----
+
+Quote: 
+
+----
+
+Video: https://www.youtube.com/watch?v=Nhw1cRvfYcA
+
+----
+
+Credits:
+
+- 
+  role: Director of Assembly
+  people: Floor van Leeuwen
+- 
+  role: Movement Director
+  people: Simomo Boujarra
+- 
+  role: Musical Director
+  people: Reda Senhaji / DJ Cheb Runner
+- 
+  role: Researcher
+  people: Abdellah Hassak
+- 
+  role: Boundary
+  people: Souhail Abounnaim
+- 
+  role: Producer
+  people: Simo Makboul
+- 
+  role: Dance
+  people: Amine Lahrach
+- 
+  role: Social Design
+  people: Roberto Pérez gayo
+- 
+  role: Photography
+  people: 'Salah Black & White'
+- 
+  role: Assistent Director
+  people: Samuël van der Spek
+- 
+  role: Produced by
+  people: Leeway
+- 
+  role: Hosted by
+  people: Le18, Les Étoiles, Psychologues Maghreb
+- 
+  role: Supported By
+  people: Fonds Podiumkunsten Fast Forward
+- 
+  role: Co-Produced by
+  people: Productiehuis Theater Rotterdam
+
+----
+
+Related: - page://Yws8pjB1FdBQMNLS
+
+----
+
+Thumbnail: - file://aSuYlX4dfxW160pf
+
+----
+
+Uuid: xt0V8wZYqMdUy7xV

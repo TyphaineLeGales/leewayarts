@@ -2,9 +2,11 @@
   <?= css(['assets/css/snippets/footer.css'])?>
   <footer>
     <div class="footer__item__copyright">
-      <p class="name" href="<?= $site->url() ?>">
-        <?= $site->title()->esc() ?>
-      </p>
+       <a class="logo" href="<?= $site->url() ?>">
+          <?php if ($logo = $site->logoFooter()->toFile()): ?>  
+            <img src="<?= $site->logoFooter()->toFile()->url() ?>" alt="Logo" id="logoFooter">
+          <?php endif ?>
+        </a>
       <p>©2024 All rights reserved</p>
     </div>
     <ul class="footer__page_list">

@@ -2,8 +2,11 @@ Title: Home
 
 ----
 
+Headline: Welcome to Leeway. Our not-for-profit organisation hosts lively street events featuring talented DJs, creating unforgettable experiences that bring people together.  Information about our previous projects are below. And under topics we share a bit of background information about the different disciplines involved in our practises.
 
-Headline: Welcome to Leeway. Our not-for-profit organisation hosts lively street events featuring fantastic DJs, creating unforgettable experiences that bring people together. 
+----
+
+Subheadline: 
 
 ----
 

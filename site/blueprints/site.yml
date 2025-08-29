@@ -23,6 +23,27 @@ columns:
           - donation
           - contact
           - articles
+    
+      logo_section:
+        type: fields
+        label: Logo
+        fields:
+          logo:
+            label: Logo
+            type: files
+            multiple: false
+            layout: cards
+            uploads:
+              template: image
+            width: 1/2
+          logoFooter:
+            label: LogoFooter
+            type: files
+            multiple: false
+            layout: cards
+            uploads:
+              template: image
+            width: 1/2
   - width: 1/2 
     sections: 
       contact: 

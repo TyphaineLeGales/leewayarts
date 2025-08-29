@@ -1,0 +1,9 @@
+Title: Contact
+
+----
+
+Description: [{"content":{"text":"<p>For any inquiries please contact us at: <a href=\"mailto:floor@leewayart.org\"><strong>info@leewayart.org</strong></a></p>"},"id":"d56d4506-a738-469d-b46e-26684ebf7637","isHidden":false,"type":"text"},{"content":{"text":"<p>If you would like to know more about upcoming Swarms, you are welcome to join the WhatsApp group following the link <a href=\"https://chat.whatsapp.com/IXLpsstON0N1pP4d2nV3WG\">here</a>.</p>"},"id":"90aea312-4c5a-44e3-af7a-36305cb88ed2","isHidden":false,"type":"text"},{"content":{"text":"<p>Or DM us on Instagram <a href=\"https://www.instagram.com/swarm.movement/\">swarm.movement</a></p>"},"id":"8ca2ea77-5c00-4582-86fa-f82e1a166d47","isHidden":false,"type":"text"},{"content":{"text":"<p>Visit our <a href=\"https://www.linkedin.com/in/floor-van-leeuwen-b2b993211?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrY4B98WvTG%2B7rWq8%2FNWdkg%3D%3D\">LinkedIn</a></p>"},"id":"6647f54d-d9d0-4354-97e6-4b5057bfddfc","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://ETfxMapxjcwCFkop"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"b874ca34-d512-4c7e-9a0b-38a19d13d522","isHidden":false,"type":"image"}]
+
+----
+
+Uuid: dRzdsqùk9oFrPuWkG
