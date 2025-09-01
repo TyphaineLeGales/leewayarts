@@ -1,0 +1,123 @@
+Title: Rise Baby Rise - Right to protest
+
+----
+
+Carousel:
+
+- file://thqbKwy8DTKVH5lV
+- file://MIPkab2ltS5a4KpR
+- file://wmUvhEMP57kaGc8g
+- file://2eAoyLEErkeeZCgf
+- file://DyJ1vKAIwCpNbJ02
+- file://i6v71x6eHZZErf3I
+- file://icMxnrQYwrkYz2T3
+- file://kSuyFlIFeXvZzW9P
+- file://jTro7yYObPS0UdeD
+- file://UUcmBVgyJEU8STtG
+- file://9BiHgImFtlMFMZtO
+
+----
+
+Description: [{"content":{"text":"<p>Rise Baby Rise is een viering van ons vermogen om samen te komen, als vreedzame reactie op de beperkingen op het recht om te protesteren en samen te komen in het Verenigd Koninkrijk.</p><p>In 2022 the Police, Crime, Sentencing and Courts Act (PCSC) came into effect, and in May 2023 the Public Order Act (PO) was added. These Acts include severe restrictions on the rights to protest. The restrictions are not only for marches, they also apply to static assemblies and even one person protests. The Acts increase the risks for people participating and ask protests to happen in a way where no one is disrupted by it.</p><p>Yet, none of the successes of the Civil Rights Movement, the Suffragettes, Gay Liberation Front and Reclaim the Streets would have been achieved without civil disobedience.</p><p>Sometimes the law is wrong. With Rise Baby Rise, we invite you to take it to the streets with us.</p>"},"id":"e9246921-bb1c-434e-8bc4-f99755d738c0","isHidden":false,"type":"text"}]
+
+----
+
+Quote: 
+
+----
+
+Video: https://www.youtube.com/watch?v=eBlTgMLWT9g
+
+----
+
+Credits:
+
+- 
+  role: Choreography
+  people: Floor van Leeuwen
+- 
+  role: Choreographyof Dance
+  people: Simomo Boujarra
+- 
+  role: Choreography of Boundary
+  people: Dani Dinger
+- 
+  role: Music
+  people: Sara Dziri
+- 
+  role: Musical Direction
+  people: Reda Senhaji aka DJ Cheb Runner
+- 
+  role: Visual Art
+  people: Julita Mahrer Viñas
+- 
+  role: Visual Aspect Curation
+  people: Eden Topall-Rabanes
+- 
+  role: Accessibility Work
+  people: Nataly Ba
+- 
+  role: Press
+  people: Catherine Li
+- 
+  role: Community Building
+  people: SasaHara
+- 
+  role: Social Design
+  people: Roberto Pérez Gayo
+- 
+  role: Productional Support
+  people: Karen Stassen
+- 
+  role: Assistant Choreography
+  people: Samuël van der Spek
+- 
+  role: Swarm Dancer
+  people: >
+    Amber Lucia, Sami Itävuori, Bill Gee,
+    Akış Ka, Kitty Low, Juliet Flam-Ross,
+    Martha Harlan, Antonia B., Ria Irvine,
+    Sylvie de Kubber
+- 
+  role: Design Inflatables
+  people: Zalán Szakács
+- 
+  role: Light Design
+  people: Nick Mansveld
+- 
+  role: Police Liasion and co-organiser
+  people: Lip Wieckowski
+- 
+  role: Aftermovie
+  people: Talie Rose Eigeland
+- 
+  role: Photographer
+  people: >
+    Omer Gaash and The East London
+    Photographer
+- 
+  role: Co-organised with
+  people: >
+    Riposte and London LGBTQ+ Community
+    Centre
+- 
+  role: Supported by
+  people: >
+    Fonds Podiumkunsten, Productiehuis
+    Rotterdam, Artsadmin
+- 
+  role: Produced by
+  people: Leeway
+- 
+  role: Special Thanks to
+  people: >
+    Winfred Voordendag, Joanna Darrington,
+    Trude Diesen Sundberg, Jag Hunjan
+
+----
+
+Related: - page://Yws8pjB1FdBQMNLS
+
+----
+
+Thumbnail: - file://5qubMBEmOWFB6k4N
