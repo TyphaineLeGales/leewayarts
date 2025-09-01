@@ -9,15 +9,14 @@
     align-items: center;
     transform: translateX(0);
     pointer-events: none;
-    transition: all 1s ease-in-out;
-
+    transition: all 0.5s ease-in-out;
 }
 
 video {
-    transition: all 2s ease;
+    transition: all 1s ease;
     max-height: 350px;
-    transform: translateX(0);
     opacity: 0;
+    transform: translateX(-12px);
 }
 
 .opacity_out {
