@@ -1,106 +1,67 @@
-
 footer {
-    display: grid;
-    grid-gap:  var(--padding);
-    grid-auto-flow: column;
-    grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: auto;
-    overflow-x: auto;
-    white-space: nowrap; 
-    padding-bottom: 12px;
-}
-
-.footer__item__copyright {
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-}
-
-
-.footer__page_list {
-    grid-column-start: 1;
-    grid-column-end: -1;
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    transform: translateX(-12px);
-}
-
-
-.footer__contact {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    transform: translateX(-12px);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: var(--padding);
+  padding-bottom: 12px;
+  align-items: start;
+  position: relative;
 }
 
 footer:before {
-    content: "";
-    display: block;
-    height: 1px;
-    background: var(--color-black);
-    grid-column-start: 1;
-    grid-column-end: -1;
+  content: "";
+  display: block;
+  height: 1px;
+  background: var(--color-black);
+  grid-column: 1 / -1;
 }
 
-.name {
-    color: black;
+.footer_item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.footer__contact li a {
-    color: black;
+.footer_item > .logo {
+    padding: 0;
 }
 
 
-footer h2 {
-    font-weight: 600;
-    margin-bottom: .75rem;
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 footer ul li {
-    padding: 6px 12px;
- }
-footer ul,
-footer p {
-    color: var(--color-text-grey);
-}
-footer p {
-    max-width: 15rem;
-}
-footer a:hover {
-    color: var(--color-text);
+  padding: 0; /* remove forced padding */
 }
 
-footer ul {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.footer_language_switch {
+  display: flex;
+  gap: 0.5rem;
 }
 
+.footer_language_switch > li:first-of-type::after {
+    content: "/";
+}
+
+.non_active {
+  color: var(--color-text-grey);
+}
+
+.footer__contact {
+  align-items: flex-start;
+}
+
+.footer__copyright {
+    font-size: 16px;
+    line-height: 1.2rem;
+}
 
 
 @media screen and (min-width: 60rem) {
-    footer {
-        padding-bottom: 24px;
-    }
-    .footer__contact {
-        grid-column-start: 6;
-        grid-column-end: -1;
-        align-items: flex-end;
-        transform: translateX(0);
-    }
-
-    .footer__page_list {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        justify-content:center;
-        transform: translateX(0);
-    }
-
-    footer ul li {
-       padding: 0 6px;
-    }
-
-    
+  footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
