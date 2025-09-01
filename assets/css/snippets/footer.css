@@ -35,17 +35,11 @@ footer ul li {
   padding: 0; /* remove forced padding */
 }
 
-.footer_language_switch {
-  display: flex;
-  gap: 0.5rem;
-}
 
-.footer_language_switch > li:first-of-type::after {
-    content: "/";
-}
 
-.non_active {
+.active {
   color: var(--color-text-grey);
+  pointer-events: none;
 }
 
 .footer__contact {
@@ -55,6 +49,7 @@ footer ul li {
 .footer__copyright {
     font-size: 16px;
     line-height: 1.2rem;
+    text-align: right;
 }
 
 @media screen and (min-width: 60rem) {

@@ -1,1 +1,49 @@
-Uuid: ztrhaesqn8bztcai
+Title: Media
+
+----
+
+Articles:
+
+- 
+  legend: >
+    De helende dansoptochten van Floor van
+    Leeuwen / Wendy Lubberding / TM
+  image:
+    - file://axyPeSSmkIbGXmlK
+  url: >
+    https://www.theaterkrant.nl/tm-artikel/zwermen-door-de-stad/
+  pdf: [ ]
+- 
+  legend: Smooth City / René  Boer
+  image:
+    - file://cJSjdSEbvJmZTGos
+  url: >
+    https://valiz.nl/en/publications/smooth-city
+  pdf: [ ]
+- 
+  legend: 'Tegenlicht: De toekomst van protest / VPRO'
+  image:
+    - file://A7hfEVOGCJGXKOEQ
+  url: >
+    https://www.uitzendinggemist.net/aflevering/541517/Vpro_Tegenlicht.html
+  pdf: [ ]
+- 
+  legend: Dutch Mime / Marijn de Langen
+  image:
+    - file://zXJ1SLJ201vvrxk9
+  url: >
+    https://mimearchieven.nl/Onderzoek-Research
+  pdf: [ ]
+- 
+  legend: >
+    Alles zien, alles voelen, sjamanen in de
+    stad / Hanne Hagenaars / MISTER MOTLEY
+  image:
+    - file://VbO1kElP8rESKLGM
+  url: >
+    https://www.mistermotley.nl/alles-zien-alles-voelen-sjamanen-de-stad/
+  pdf: [ ]
+
+----
+
+Uuid: kpjHdsqmùmnlmhds

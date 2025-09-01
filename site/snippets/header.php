@@ -39,7 +39,11 @@
               </a>
             </li>
           <?php endforeach ?>
-          </ul>
+          <li>
+            <?php snippet('languageSwitch') ?>
+          <li>
+          
+        </ul>
         <div></div>
       </div>
       

@@ -14,7 +14,7 @@
 
 video {
     transition: all 1s ease;
-    max-height: 350px;
+    height: 400px;
     opacity: 0;
     transform: translateX(-12px);
 }
@@ -29,4 +29,11 @@ video {
 
 .intro_in {
     opacity: 1;
+}
+
+@media screen and (min-width: 60rem) {
+    video {
+        height: 750px;
+    }
+    
 }
