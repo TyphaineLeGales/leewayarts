@@ -9,6 +9,7 @@
  */
 return [
     'debug' => true,
-    'url' => ['http://localhost:8000', 'https://leewayart.org']
+    'url' => ['http://localhost:8000', 'https://leewayart.org'],
+    'languages' => true
 ];
 
