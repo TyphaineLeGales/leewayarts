@@ -1,0 +1,33 @@
+#introAnim {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: white;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(0);
+    pointer-events: none;
+    transition: all 1s ease-in-out;
+
+}
+
+video {
+    transition: all 2s ease;
+    max-height: 350px;
+    transform: translateX(0);
+    opacity: 0;
+}
+
+.opacity_out {
+  opacity: 0;
+}
+
+.translate_out {
+    transform: translateX(50vw) !important;
+}
+
+.intro_in {
+    opacity: 1;
+}

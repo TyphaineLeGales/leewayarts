@@ -1,9 +1,0 @@
-Title: Mental Health
-
-----
-
-Thumbnail: mental_health_thumbnail.png
-
-----
-
-Uuid: 2fXfIn3T9VTyv3Sy

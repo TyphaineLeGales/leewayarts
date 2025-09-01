@@ -1,9 +1,0 @@
-Title: Contact
-
-----
-
-Description: [{"content":{"text":"<p>For any inquiries please contact us at: <br><a href=\"mailto:info@leewayart.org\">info@leewayart.org</a> or <a href=\"mailto:floor@leewayart.org\"><strong>floor@leewayart.org</strong></a></p>"},"id":"d56d4506-a738-469d-b46e-26684ebf7637","isHidden":false,"type":"text"},{"content":{"text":"<p>If you would like to know more about upcoming Swarms, you are welcome to join the WhatsApp group following the link <a href=\"https://chat.whatsapp.com/IXLpsstON0N1pP4d2nV3WG\">here</a>.<br>Or DM us on Instagram swarm.movement<br>Visit our <a href=\"https://www.linkedin.com/in/floor-van-leeuwen-b2b993211/\">LinkedIn</a></p>"},"id":"c57484ab-799f-4984-a365-06408d6b10a7","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://zIoeHaWaqJYILyC5"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"44337b78-d4ff-4e5f-89c7-8698238b4ced","isHidden":false,"type":"image"}]
-
-----
-
-Uuid: dRzdsqùk9oFrPuWkG

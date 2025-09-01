@@ -30,7 +30,7 @@
         <p> menu </p>
       </button>
       <div class="nav_container ">
-        <button class="menu_close" onclick="menuToggle()"> Close </button>
+        <button class="menu_close" onclick="menuToggle()"> close </button>
         <ul>
           <?php foreach ($site->children()->listed() as $rootPage): ?>
             <li>

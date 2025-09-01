@@ -1,4 +1,5 @@
 <?= js(['assets/js/sliderNav.js'])?>
+<?php snippet('introAnim') ?>
 <?php snippet('header') ?>
   <?php snippet('intro') ?>
     <div>
@@ -19,3 +20,4 @@
 
     </div>
 <?php snippet('footer') ?>
+
